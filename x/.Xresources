@@ -1,0 +1,74 @@
+! ===================
+!       urxvt
+! ===================
+
+URxvt*scrollBar:	    false
+URxvt*letterSpace:  	-1
+URxvt.internalBorder: 10
+!URxvt*Font:		        xft:DejaVu Sans:regular:size 14:antialias=true
+urxvt*font: xft:Ubuntu Mono:style=Regular:pixelsize=17
+!urxvt*font: xft:DejaVu Sans Mono:size=12
+!URxvt*boldFont:		    xft:System San Francisco:bold:size=11
+URxvt*cursorBlink:    true
+URxvt.iso14755:		    false
+URxvt.iso14755_52: false
+URxvt*utf8:			      true
+URxvt.background: #1A1B26
+URxvt.geometry: 135x35
+
+! =================
+!       Xft
+! =================
+Xft.dpi:          	96
+Xft.antialias:     	true
+Xft.rgba:			      subpixel
+Xft.hinting:       	true
+Xft.hintstyle:		  hintslight
+! Xft.lcdfilter:	  lcddefault
+! ============
+!    Perl
+! ============
+URxvt.perl-ext-common: default,clipboard,resize-font,url-select,keyboard-select
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select.launcher: /usr/bin/xdg-open
+URxvt.url-select.underline: true
+
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 2
+
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.C-Down:  resize-font:smaller
+URxvt.keysym.C-Up:    resize-font:bigger
+
+URxvt.clipboard.autocopy: true
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+URxvt.keysym.M-s:		perl:keyboard-select:search
+! ============
+!   Couleurs
+! ============
+!*secondary:  #444B6A
+!*active:     #C0CAF5
+!
+*.foreground:   #C0CAF5
+*.background:   #1A1B26
+*.cursorColor:  #C0CAF5
+!* fading: 20
+!*fadeColor: #5A638C
+!
+!*.color0:                #6878A6
+!*.color8:                #5d6791
+!*.color1:                #DB4B4B
+!*.color9:                #A6333F
+!*.color2:                #9ECE6A
+!*.color10:               #9ECE6A
+!*.color3:                #E0AF68
+!*.color11:               #BBA461
+!*.color4:                #7AA2F7
+!*.color12:               #6D91DE
+!*.color5:                #BB9AF7
+!*.color13:               #9D7CD8
+!*.color6:                #41A6B5
+!*.color14:               #449DAB
+!*.color7:                #C0CAF5
+!*.color15:               #9AA5CE
