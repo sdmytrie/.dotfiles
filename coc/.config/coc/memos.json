@@ -1,0 +1,1036 @@
+{
+  "coc-eslint|global": {
+    "eslintAlwaysAllowExecution": true
+  },
+  "coc-python|global": {
+    "INTERPRETERS_CACHE_v3_CondaEnvFileService": [],
+    "INTERPRETERS_CACHE_v3_CondaEnvService": [],
+    "INTERPRETERS_CACHE_v3_VirtualEnvService": [],
+    "/usr/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "a966626cc8f9c6038b0d735aceb559a43bc8b4c077a6e7d1bd5dcd26dfeebc06b0ebbab473e5c6d8890a63b51db5a669b3413b3bff3407729d5604901d1ffdcb"
+      },
+      "expiry": 1616192231406
+    },
+    "/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "060d1509a651b5b023f725d2ec9f70dadea90454cf956313b00d20ce2ed21b89998441b69dcd7a0380aee172b31f357d6533ed356247de12a89b139427194fd6"
+      },
+      "expiry": 1616192231349
+    },
+    "/usr/bin/python2.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "3d8b5890a91002e2dc4c90a22fc4ad4bc1bdb8c68a10a379cc5ec3ce9e034f3ee4301f3a3c74f473768a88d8a5400a121bd221c28cd513b152a4a2e9e048e574"
+      },
+      "expiry": 1616192231350
+    },
+    "/usr/bin/python2.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "0034d67c907babba1b20f6360d8f2a07592fb60dd413ae7de5f781b3d1c77173c4900b943d41d21b04c355676b6baacaf97bb44c510e6fb56ff52bb135781c44"
+      },
+      "expiry": 1616192231349
+    },
+    "/usr/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "8f775ea6b063d7c2451d1bbfed62a6fce9c6b925bc3aeea781d5a7403b2dcdf5dd7cccdbcf15b718293c9f80e5d2a63e503dae768269204fea6633a6efdab4b1"
+      },
+      "expiry": 1616192231408
+    },
+    "/usr/bin/python3.6.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3.6",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.9-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.9-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "8194c94ff12559b90de0e6498e993ec054817d3b41271d29001b66260ca56f911a7146c8e963e343775e3d9bfe5fc2d40f26b98e9f93e97d834d6fef02ec27ca"
+      },
+      "expiry": 1616192231407
+    },
+    "/opt/Projects/ffhm/venv/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/Projects/ffhm/venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/opt/Projects/ffhm/venv",
+        "fileHash": "7fba263f5a9882ee6de993bb1074d02bf540c6892cbec76a11beb82c9ef1b7c63f679b13f360efc1a023440990578eb3eeda1371ba544ddfe3058fe94143cf19"
+      },
+      "expiry": 1616192231351
+    },
+    "/opt/Projects/ffhm/venv/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/Projects/ffhm/venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/opt/Projects/ffhm/venv",
+        "fileHash": "8f7b6970a0b6d5fc72bc82f8ba281ca56a5253f26b9e7caa729b1987ce3c618be6fc96514e2ba437e02e6f005f38390eac42a088e7af333c9f7a3f8f6afa53b8"
+      },
+      "expiry": 1616192231352
+    },
+    "InterpreterAutoSeletionRule-environment": {
+      "architecture": 3,
+      "path": "/opt/Projects/ffhm/venv/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/opt/Projects/ffhm/venv",
+      "fileHash": "7fba263f5a9882ee6de993bb1074d02bf540c6892cbec76a11beb82c9ef1b7c63f679b13f360efc1a023440990578eb3eeda1371ba544ddfe3058fe94143cf19",
+      "type": "VirtualEnv"
+    },
+    "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/opt/Projects/ffhm/venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/opt/Projects/ffhm/venv",
+        "fileHash": "8f7b6970a0b6d5fc72bc82f8ba281ca56a5253f26b9e7caa729b1987ce3c618be6fc96514e2ba437e02e6f005f38390eac42a088e7af333c9f7a3f8f6afa53b8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/Projects/ffhm/venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/opt/Projects/ffhm/venv",
+        "fileHash": "7fba263f5a9882ee6de993bb1074d02bf540c6892cbec76a11beb82c9ef1b7c63f679b13f360efc1a023440990578eb3eeda1371ba544ddfe3058fe94143cf19",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "a966626cc8f9c6038b0d735aceb559a43bc8b4c077a6e7d1bd5dcd26dfeebc06b0ebbab473e5c6d8890a63b51db5a669b3413b3bff3407729d5604901d1ffdcb",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "0034d67c907babba1b20f6360d8f2a07592fb60dd413ae7de5f781b3d1c77173c4900b943d41d21b04c355676b6baacaf97bb44c510e6fb56ff52bb135781c44",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "3d8b5890a91002e2dc4c90a22fc4ad4bc1bdb8c68a10a379cc5ec3ce9e034f3ee4301f3a3c74f473768a88d8a5400a121bd221c28cd513b152a4a2e9e048e574",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "060d1509a651b5b023f725d2ec9f70dadea90454cf956313b00d20ce2ed21b89998441b69dcd7a0380aee172b31f357d6533ed356247de12a89b139427194fd6",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3.6",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.9-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.9-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "8194c94ff12559b90de0e6498e993ec054817d3b41271d29001b66260ca56f911a7146c8e963e343775e3d9bfe5fc2d40f26b98e9f93e97d834d6fef02ec27ca",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "8f775ea6b063d7c2451d1bbfed62a6fce9c6b925bc3aeea781d5a7403b2dcdf5dd7cccdbcf15b718293c9f80e5d2a63e503dae768269204fea6633a6efdab4b1",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "a966626cc8f9c6038b0d735aceb559a43bc8b4c077a6e7d1bd5dcd26dfeebc06b0ebbab473e5c6d8890a63b51db5a669b3413b3bff3407729d5604901d1ffdcb",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "0034d67c907babba1b20f6360d8f2a07592fb60dd413ae7de5f781b3d1c77173c4900b943d41d21b04c355676b6baacaf97bb44c510e6fb56ff52bb135781c44",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "3d8b5890a91002e2dc4c90a22fc4ad4bc1bdb8c68a10a379cc5ec3ce9e034f3ee4301f3a3c74f473768a88d8a5400a121bd221c28cd513b152a4a2e9e048e574",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "060d1509a651b5b023f725d2ec9f70dadea90454cf956313b00d20ce2ed21b89998441b69dcd7a0380aee172b31f357d6533ed356247de12a89b139427194fd6",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3.6",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.9-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.9-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "8194c94ff12559b90de0e6498e993ec054817d3b41271d29001b66260ca56f911a7146c8e963e343775e3d9bfe5fc2d40f26b98e9f93e97d834d6fef02ec27ca",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "8f775ea6b063d7c2451d1bbfed62a6fce9c6b925bc3aeea781d5a7403b2dcdf5dd7cccdbcf15b718293c9f80e5d2a63e503dae768269204fea6633a6efdab4b1",
+        "type": "Unknown"
+      }
+    ],
+    "INTERPRETERS_CACHE_v3_CurrentPathService": [
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3.6",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.9-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.9-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "8194c94ff12559b90de0e6498e993ec054817d3b41271d29001b66260ca56f911a7146c8e963e343775e3d9bfe5fc2d40f26b98e9f93e97d834d6fef02ec27ca",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/Projects/ffhm/venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/opt/Projects/ffhm/venv",
+        "fileHash": "7fba263f5a9882ee6de993bb1074d02bf540c6892cbec76a11beb82c9ef1b7c63f679b13f360efc1a023440990578eb3eeda1371ba544ddfe3058fe94143cf19",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "0034d67c907babba1b20f6360d8f2a07592fb60dd413ae7de5f781b3d1c77173c4900b943d41d21b04c355676b6baacaf97bb44c510e6fb56ff52bb135781c44",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/Projects/ffhm/venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/opt/Projects/ffhm/venv",
+        "fileHash": "8f7b6970a0b6d5fc72bc82f8ba281ca56a5253f26b9e7caa729b1987ce3c618be6fc96514e2ba437e02e6f005f38390eac42a088e7af333c9f7a3f8f6afa53b8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/Projects/ffhm/venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/opt/Projects/ffhm/venv",
+        "fileHash": "7fba263f5a9882ee6de993bb1074d02bf540c6892cbec76a11beb82c9ef1b7c63f679b13f360efc1a023440990578eb3eeda1371ba544ddfe3058fe94143cf19",
+        "type": "Unknown"
+      }
+    ],
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/opt/Projects/ffhm/venv/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/opt/Projects/ffhm/venv",
+      "fileHash": "7fba263f5a9882ee6de993bb1074d02bf540c6892cbec76a11beb82c9ef1b7c63f679b13f360efc1a023440990578eb3eeda1371ba544ddfe3058fe94143cf19",
+      "type": "Unknown"
+    },
+    "PipEnvInformation": [],
+    "/opt/Projects/ffhm/venv/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "7fba263f5a9882ee6de993bb1074d02bf540c6892cbec76a11beb82c9ef1b7c63f679b13f360efc1a023440990578eb3eeda1371ba544ddfe3058fe94143cf19"
+      },
+      "expiry": 1616192231437
+    },
+    "/opt/Projects/ffhm/venv/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit ('venv': venv)",
+        "hash": "8f7b6970a0b6d5fc72bc82f8ba281ca56a5253f26b9e7caa729b1987ce3c618be6fc96514e2ba437e02e6f005f38390eac42a088e7af333c9f7a3f8f6afa53b8-9cb538fb26187d60520f5c70ec997772"
+      },
+      "expiry": 1616192231446
+    },
+    "/usr/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.18 64-bit",
+        "hash": "a966626cc8f9c6038b0d735aceb559a43bc8b4c077a6e7d1bd5dcd26dfeebc06b0ebbab473e5c6d8890a63b51db5a669b3413b3bff3407729d5604901d1ffdcb-c08ed7d652190313fee714bc6a9485e5"
+      },
+      "expiry": 1616192231447
+    },
+    "/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit",
+        "hash": "060d1509a651b5b023f725d2ec9f70dadea90454cf956313b00d20ce2ed21b89998441b69dcd7a0380aee172b31f357d6533ed356247de12a89b139427194fd6-170251331a3641d36296aa34bd99b454"
+      },
+      "expiry": 1616192231448
+    },
+    "/usr/bin/python3.6.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.6.9 64-bit",
+        "hash": "8194c94ff12559b90de0e6498e993ec054817d3b41271d29001b66260ca56f911a7146c8e963e343775e3d9bfe5fc2d40f26b98e9f93e97d834d6fef02ec27ca-09a71e69d2bbafd7d7aa9f347e6581e6"
+      },
+      "expiry": 1616192231448
+    },
+    "InterpreterAutoSeletionRule-system": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "060d1509a651b5b023f725d2ec9f70dadea90454cf956313b00d20ce2ed21b89998441b69dcd7a0380aee172b31f357d6533ed356247de12a89b139427194fd6",
+      "type": "Unknown",
+      "displayName": "Python 3.8.5 64-bit"
+    },
+    "/opt/Projects/ffhm/venv/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "8f7b6970a0b6d5fc72bc82f8ba281ca56a5253f26b9e7caa729b1987ce3c618be6fc96514e2ba437e02e6f005f38390eac42a088e7af333c9f7a3f8f6afa53b8",
+        "info": {
+          "architecture": 3,
+          "path": "/opt/Projects/ffhm/venv/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.5-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.5-final"
+          },
+          "sysPrefix": "/opt/Projects/ffhm/venv",
+          "fileHash": "8f7b6970a0b6d5fc72bc82f8ba281ca56a5253f26b9e7caa729b1987ce3c618be6fc96514e2ba437e02e6f005f38390eac42a088e7af333c9f7a3f8f6afa53b8",
+          "envName": "venv",
+          "type": "Venv",
+          "displayName": "Python 3.8.5 64-bit ('venv': venv)"
+        }
+      },
+      "expiry": 1616192231465
+    },
+    "/usr/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "a966626cc8f9c6038b0d735aceb559a43bc8b4c077a6e7d1bd5dcd26dfeebc06b0ebbab473e5c6d8890a63b51db5a669b3413b3bff3407729d5604901d1ffdcb",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.18-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 18,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.18-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "a966626cc8f9c6038b0d735aceb559a43bc8b4c077a6e7d1bd5dcd26dfeebc06b0ebbab473e5c6d8890a63b51db5a669b3413b3bff3407729d5604901d1ffdcb",
+          "type": "Unknown",
+          "displayName": "Python 2.7.18 64-bit"
+        }
+      },
+      "expiry": 1616192231467
+    },
+    "/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "060d1509a651b5b023f725d2ec9f70dadea90454cf956313b00d20ce2ed21b89998441b69dcd7a0380aee172b31f357d6533ed356247de12a89b139427194fd6",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.5-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.5-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "060d1509a651b5b023f725d2ec9f70dadea90454cf956313b00d20ce2ed21b89998441b69dcd7a0380aee172b31f357d6533ed356247de12a89b139427194fd6",
+          "type": "Unknown",
+          "displayName": "Python 3.8.5 64-bit"
+        }
+      },
+      "expiry": 1616192231468
+    },
+    "/usr/bin/python3.6.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "8194c94ff12559b90de0e6498e993ec054817d3b41271d29001b66260ca56f911a7146c8e963e343775e3d9bfe5fc2d40f26b98e9f93e97d834d6fef02ec27ca",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3.6",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.6.9-final",
+            "major": 3,
+            "minor": 6,
+            "patch": 9,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.6.9-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "8194c94ff12559b90de0e6498e993ec054817d3b41271d29001b66260ca56f911a7146c8e963e343775e3d9bfe5fc2d40f26b98e9f93e97d834d6fef02ec27ca",
+          "type": "Unknown",
+          "displayName": "Python 3.6.9 64-bit"
+        }
+      },
+      "expiry": 1616192231469
+    },
+    "/opt/Projects/ffhm/venv/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit ('venv': venv)",
+        "hash": "7fba263f5a9882ee6de993bb1074d02bf540c6892cbec76a11beb82c9ef1b7c63f679b13f360efc1a023440990578eb3eeda1371ba544ddfe3058fe94143cf19-4a8fd4fcedb9be8f0a21ed652cd37f08"
+      },
+      "expiry": 1616192231476
+    },
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "060d1509a651b5b023f725d2ec9f70dadea90454cf956313b00d20ce2ed21b89998441b69dcd7a0380aee172b31f357d6533ed356247de12a89b139427194fd6",
+      "type": "Unknown",
+      "displayName": "Python 3.8.5 64-bit"
+    }
+  },
+  "coc-python|/opt/Projects/ffhm": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:17b4b03f275197c748e1fb9f343ae388": [],
+    "SelectedPythonPath": "/opt/Projects/ffhm/venv/bin/python3",
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:17b4b03f275197c748e1fb9f343ae388": [
+      {
+        "architecture": 3,
+        "path": "/opt/Projects/ffhm/venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/opt/Projects/ffhm/venv",
+        "fileHash": "8f7b6970a0b6d5fc72bc82f8ba281ca56a5253f26b9e7caa729b1987ce3c618be6fc96514e2ba437e02e6f005f38390eac42a088e7af333c9f7a3f8f6afa53b8",
+        "envName": "venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/Projects/ffhm/venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/opt/Projects/ffhm/venv",
+        "fileHash": "7fba263f5a9882ee6de993bb1074d02bf540c6892cbec76a11beb82c9ef1b7c63f679b13f360efc1a023440990578eb3eeda1371ba544ddfe3058fe94143cf19",
+        "envName": "venv",
+        "type": "Venv"
+      }
+    ],
+    "autoSelectedWorkspacePythonInterpreter-/opt/Projects/ffhm": {
+      "architecture": 3,
+      "path": "/opt/Projects/ffhm/venv/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/opt/Projects/ffhm/venv",
+      "fileHash": "7fba263f5a9882ee6de993bb1074d02bf540c6892cbec76a11beb82c9ef1b7c63f679b13f360efc1a023440990578eb3eeda1371ba544ddfe3058fe94143cf19",
+      "type": "VirtualEnv"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/opt/Projects/ffhm/venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/opt/Projects/ffhm/venv",
+        "fileHash": "8f7b6970a0b6d5fc72bc82f8ba281ca56a5253f26b9e7caa729b1987ce3c618be6fc96514e2ba437e02e6f005f38390eac42a088e7af333c9f7a3f8f6afa53b8",
+        "envName": "venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/Projects/ffhm/venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/opt/Projects/ffhm/venv",
+        "fileHash": "7fba263f5a9882ee6de993bb1074d02bf540c6892cbec76a11beb82c9ef1b7c63f679b13f360efc1a023440990578eb3eeda1371ba544ddfe3058fe94143cf19",
+        "envName": "venv",
+        "type": "Venv"
+      }
+    ]
+  }
+}
