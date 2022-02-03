@@ -1,0 +1,20 @@
+[2022-02-01 22:37:59.959] [sharedprocess] [info] Deleted from disk pkief.material-icon-theme /home/serge/.vscode/extensions/pkief.material-icon-theme-4.11.0
+[2022-02-01 22:38:00.449] [sharedprocess] [info] Starting worker process with pid 30832 (type: watcherServiceParcelSharedProcess, window: 1).
+[2022-02-01 22:38:05.123] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2022-02-01 22:38:05.586] [sharedprocess] [info] Installing extension: esbenp.prettier-vscode
+[2022-02-01 22:38:05.623] [sharedprocess] [info] Installing extension: angular.ng-template
+[2022-02-01 22:38:07.981] [sharedprocess] [info] Downloaded extension: ms-python.vscode-pylance /home/serge/.config/Code/CachedExtensionVSIXs/ms-python.vscode-pylance-2022.1.5
+[2022-02-01 22:38:08.479] [sharedprocess] [info] Downloaded extension: esbenp.prettier-vscode /home/serge/.config/Code/CachedExtensionVSIXs/esbenp.prettier-vscode-9.2.0
+[2022-02-01 22:38:09.241] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.43d25345-1e18-43a8-ba1b-703c84d98f54: esbenp.prettier-vscode
+[2022-02-01 22:38:09.436] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/esbenp.prettier-vscode-9.2.0
+[2022-02-01 22:38:09.439] [sharedprocess] [info] Downloaded extension: angular.ng-template /home/serge/.config/Code/CachedExtensionVSIXs/angular.ng-template-13.2.0
+[2022-02-01 22:38:09.443] [sharedprocess] [info] Extracting completed. esbenp.prettier-vscode
+[2022-02-01 22:38:09.461] [sharedprocess] [info] Extension installed successfully: esbenp.prettier-vscode
+[2022-02-01 22:38:10.846] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.7cc96a48-0bc7-46b1-a806-ba49db818016: angular.ng-template
+[2022-02-01 22:38:10.953] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/angular.ng-template-13.2.0
+[2022-02-01 22:38:10.955] [sharedprocess] [info] Extracting completed. angular.ng-template
+[2022-02-01 22:38:11.115] [sharedprocess] [info] Extension installed successfully: angular.ng-template
+[2022-02-01 22:38:12.633] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.9050fb0e-f956-4ab2-9e97-77bc18a63fbb: ms-python.vscode-pylance
+[2022-02-01 22:38:12.700] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/ms-python.vscode-pylance-2022.1.5
+[2022-02-01 22:38:12.704] [sharedprocess] [info] Extracting completed. ms-python.vscode-pylance
+[2022-02-01 22:38:12.724] [sharedprocess] [info] Extension installed successfully: ms-python.vscode-pylance

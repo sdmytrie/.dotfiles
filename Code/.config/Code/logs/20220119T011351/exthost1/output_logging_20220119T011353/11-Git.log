@@ -1,0 +1,15 @@
+Validation du git trouvé dans : git
+Utilisation de git 2.25.1 à partir de git
+> git rev-parse --git-dir
+Open repository: /opt/Projects/ffhm
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :scoresheet/templates/scoresheet/competition/competition_view.html
+> git ls-files --stage -- /opt/Projects/ffhm/scoresheet/templates/scoresheet/competition/competition_view.html
+> git cat-file -s 06996960a15125743a1933b7d52b372c6a5b8de0
+> git check-ignore -v -z --stdin

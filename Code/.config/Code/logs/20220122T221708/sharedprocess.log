@@ -1,0 +1,32 @@
+[2022-01-22 22:17:11.864] [sharedprocess] [info] Starting worker process with pid 2685623 (type: watcherServiceParcelSharedProcess, window: 1).
+[2022-01-22 22:17:12.441] [sharedprocess] [info] Deleted from disk ms-python.vscode-pylance /home/serge/.vscode/extensions/ms-python.vscode-pylance-2022.1.1
+[2022-01-22 22:22:31.935] [sharedprocess] [info] Installing extension: sdras.night-owl
+[2022-01-22 22:22:34.060] [sharedprocess] [info] Downloaded extension: sdras.night-owl /home/serge/.config/Code/CachedExtensionVSIXs/sdras.night-owl-2.0.1
+[2022-01-22 22:22:34.190] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.ba64c141-4a72-4d54-a7c8-186995cc3944: sdras.night-owl
+[2022-01-22 22:22:34.199] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/sdras.night-owl-2.0.1
+[2022-01-22 22:22:34.200] [sharedprocess] [info] Extracting completed. sdras.night-owl
+[2022-01-22 22:22:34.202] [sharedprocess] [info] Extension installed successfully: sdras.night-owl
+[2022-01-22 22:23:49.108] [sharedprocess] [info] Installing extension: codercoder.codercoder-dark-theme
+[2022-01-22 22:23:50.753] [sharedprocess] [info] Downloaded extension: codercoder.codercoder-dark-theme /home/serge/.config/Code/CachedExtensionVSIXs/codercoder.codercoder-dark-theme-1.2.2
+[2022-01-22 22:23:50.769] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.82d549d4-db4b-45ff-abe3-bb0685763b81: codercoder.codercoder-dark-theme
+[2022-01-22 22:23:50.778] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/codercoder.codercoder-dark-theme-1.2.2
+[2022-01-22 22:23:50.780] [sharedprocess] [info] Extracting completed. codercoder.codercoder-dark-theme
+[2022-01-22 22:23:50.789] [sharedprocess] [info] Extension installed successfully: codercoder.codercoder-dark-theme
+[2022-01-22 22:27:00.329] [sharedprocess] [info] Installing extension: formulahendry.auto-rename-tag
+[2022-01-22 22:27:02.060] [sharedprocess] [info] Downloaded extension: formulahendry.auto-rename-tag /home/serge/.config/Code/CachedExtensionVSIXs/formulahendry.auto-rename-tag-0.1.9
+[2022-01-22 22:27:02.105] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.3461530f-9142-4f0c-86c9-8a93b389911d: formulahendry.auto-rename-tag
+[2022-01-22 22:27:02.113] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/formulahendry.auto-rename-tag-0.1.9
+[2022-01-22 22:27:02.116] [sharedprocess] [info] Extracting completed. formulahendry.auto-rename-tag
+[2022-01-22 22:27:02.118] [sharedprocess] [info] Extension installed successfully: formulahendry.auto-rename-tag
+[2022-01-22 22:27:59.963] [sharedprocess] [info] Installing extension: miguelsolorio.fluent-icons
+[2022-01-22 22:28:01.680] [sharedprocess] [info] Downloaded extension: miguelsolorio.fluent-icons /home/serge/.config/Code/CachedExtensionVSIXs/miguelsolorio.fluent-icons-0.0.16
+[2022-01-22 22:28:01.802] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.fb63a957-fb87-43e4-8373-a0ebb42abe4d: miguelsolorio.fluent-icons
+[2022-01-22 22:28:01.810] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/miguelsolorio.fluent-icons-0.0.16
+[2022-01-22 22:28:01.811] [sharedprocess] [info] Extracting completed. miguelsolorio.fluent-icons
+[2022-01-22 22:28:01.812] [sharedprocess] [info] Extension installed successfully: miguelsolorio.fluent-icons
+[2022-01-23 00:34:46.904] [sharedprocess] [info] Installing extension: codestackr.codestackr-theme
+[2022-01-23 00:34:49.017] [sharedprocess] [info] Downloaded extension: codestackr.codestackr-theme /home/serge/.config/Code/CachedExtensionVSIXs/codestackr.codestackr-theme-0.0.8
+[2022-01-23 00:34:49.168] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.a3174693-71da-4143-9bc1-ac41085bf393: codestackr.codestackr-theme
+[2022-01-23 00:34:49.181] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/codestackr.codestackr-theme-0.0.8
+[2022-01-23 00:34:49.182] [sharedprocess] [info] Extracting completed. codestackr.codestackr-theme
+[2022-01-23 00:34:49.185] [sharedprocess] [info] Extension installed successfully: codestackr.codestackr-theme

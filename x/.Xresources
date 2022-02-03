@@ -9,11 +9,11 @@ URxvt.internalBorder: 10
 urxvt*font: xft:Ubuntu Mono:style=Regular:pixelsize=17
 !urxvt*font: xft:DejaVu Sans Mono:size=12
 !URxvt*boldFont:		    xft:System San Francisco:bold:size=11
-URxvt*cursorBlink:    true
+URxvt*cursorBlink:    false
 URxvt.iso14755:		    false
 URxvt.iso14755_52: false
 URxvt*utf8:			      true
-URxvt.background: #1A1B26
+URxvt.background: [90]#1A1B26
 URxvt.geometry: 135x35
 
 ! =================

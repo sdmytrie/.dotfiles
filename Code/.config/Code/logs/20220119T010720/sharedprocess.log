@@ -1,0 +1,133 @@
+[2022-01-19 01:07:24.061] [sharedprocess] [info] Deleted from disk johnpapa.vscode-peacock /home/serge/.vscode/extensions/johnpapa.vscode-peacock-3.10.1
+[2022-01-19 01:07:24.094] [sharedprocess] [info] Deleted from disk ms-vscode-remote.remote-ssh-edit /home/serge/.vscode/extensions/ms-vscode-remote.remote-ssh-edit-0.65.8
+[2022-01-19 01:07:24.146] [sharedprocess] [info] Starting worker process with pid 3471985 (type: watcherServiceParcelSharedProcess, window: 1).
+[2022-01-19 01:07:24.154] [sharedprocess] [info] Deleted from disk ms-ceintl.vscode-language-pack-fr /home/serge/.vscode/extensions/ms-ceintl.vscode-language-pack-fr-1.61.4
+[2022-01-19 01:07:24.156] [sharedprocess] [info] Deleted from disk eamodio.gitlens /home/serge/.vscode/extensions/eamodio.gitlens-11.6.1
+[2022-01-19 01:07:24.193] [sharedprocess] [info] Deleted from disk vscode-icons-team.vscode-icons /home/serge/.vscode/extensions/vscode-icons-team.vscode-icons-11.6.0
+[2022-01-19 01:07:24.358] [sharedprocess] [info] Deleted from disk ms-vscode-remote.remote-ssh /home/serge/.vscode/extensions/ms-vscode-remote.remote-ssh-0.65.8
+[2022-01-19 01:07:24.628] [sharedprocess] [info] Deleted from disk eg2.vscode-npm-script /home/serge/.vscode/extensions/eg2.vscode-npm-script-0.3.22
+[2022-01-19 01:07:24.628] [sharedprocess] [info] Deleted from disk ms-azuretools.vscode-docker /home/serge/.vscode/extensions/ms-azuretools.vscode-docker-1.17.0
+[2022-01-19 01:07:24.649] [sharedprocess] [info] Deleted from disk nrwl.angular-console /home/serge/.vscode/extensions/nrwl.angular-console-17.11.2
+[2022-01-19 01:07:24.651] [sharedprocess] [info] Deleted from disk streetsidesoftware.code-spell-checker /home/serge/.vscode/extensions/streetsidesoftware.code-spell-checker-2.0.10
+[2022-01-19 01:07:24.737] [sharedprocess] [info] Deleted from disk dbaeumer.vscode-eslint /home/serge/.vscode/extensions/dbaeumer.vscode-eslint-2.2.1
+[2022-01-19 01:07:24.742] [sharedprocess] [info] Deleted from disk ms-toolsai.jupyter /home/serge/.vscode/extensions/ms-toolsai.jupyter-2021.9.1001312534
+[2022-01-19 01:07:24.747] [sharedprocess] [info] Deleted from disk angular.ng-template /home/serge/.vscode/extensions/angular.ng-template-12.2.1
+[2022-01-19 01:07:24.954] [sharedprocess] [info] Deleted from disk ms-python.vscode-pylance /home/serge/.vscode/extensions/ms-python.vscode-pylance-2021.10.0
+[2022-01-19 01:07:24.967] [sharedprocess] [info] Deleted from disk ms-vscode-remote.remote-containers /home/serge/.vscode/extensions/ms-vscode-remote.remote-containers-0.202.1
+[2022-01-19 01:07:25.061] [sharedprocess] [info] Deleted from disk ms-python.python /home/serge/.vscode/extensions/ms-python.python-2021.10.1317843341
+[2022-01-19 01:07:28.639] [sharedprocess] [info] Installing extension: ms-azuretools.vscode-docker
+[2022-01-19 01:07:28.893] [sharedprocess] [info] Installing extension: batisteo.vscode-django
+[2022-01-19 01:07:28.911] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-ssh-edit
+[2022-01-19 01:07:28.918] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-ssh
+[2022-01-19 01:07:28.919] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2022-01-19 01:07:28.921] [sharedprocess] [info] Installing extension: ms-python.python
+[2022-01-19 01:07:28.922] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2022-01-19 01:07:28.932] [sharedprocess] [info] Installing extension: esbenp.prettier-vscode
+[2022-01-19 01:07:28.946] [sharedprocess] [info] Installing extension: vscode-icons-team.vscode-icons
+[2022-01-19 01:07:28.950] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-containers
+[2022-01-19 01:07:28.951] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter-renderers
+[2022-01-19 01:07:28.953] [sharedprocess] [info] Installing extension: dracula-theme.theme-dracula
+[2022-01-19 01:07:28.954] [sharedprocess] [info] Installing extension: pkief.material-icon-theme
+[2022-01-19 01:07:28.956] [sharedprocess] [info] Installing extension: angular.ng-template
+[2022-01-19 01:07:29.042] [sharedprocess] [info] Installing extension: ms-ceintl.vscode-language-pack-fr
+[2022-01-19 01:07:29.403] [sharedprocess] [info] Installing extension: nrwl.angular-console
+[2022-01-19 01:07:29.416] [sharedprocess] [info] Installing extension: streetsidesoftware.code-spell-checker
+[2022-01-19 01:07:29.834] [sharedprocess] [info] Downloaded extension: ms-azuretools.vscode-docker /home/serge/.config/Code/CachedExtensionVSIXs/ms-azuretools.vscode-docker-1.19.0
+[2022-01-19 01:07:31.484] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.384f4c86-9b80-4c07-8aa9-265730d3c3b7: ms-azuretools.vscode-docker
+[2022-01-19 01:07:31.496] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/ms-azuretools.vscode-docker-1.19.0
+[2022-01-19 01:07:31.499] [sharedprocess] [info] Extracting completed. ms-azuretools.vscode-docker
+[2022-01-19 01:07:31.511] [sharedprocess] [info] Extension installed successfully: ms-azuretools.vscode-docker
+[2022-01-19 01:07:32.231] [sharedprocess] [info] Downloaded extension: batisteo.vscode-django /home/serge/.config/Code/CachedExtensionVSIXs/batisteo.vscode-django-1.8.0
+[2022-01-19 01:07:32.340] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.602a5b79-16b8-436c-a3bd-4d5b5f00c9af: batisteo.vscode-django
+[2022-01-19 01:07:32.350] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/batisteo.vscode-django-1.8.0
+[2022-01-19 01:07:32.352] [sharedprocess] [info] Extracting completed. batisteo.vscode-django
+[2022-01-19 01:07:32.364] [sharedprocess] [info] Extension installed successfully: batisteo.vscode-django
+[2022-01-19 01:07:32.786] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter-renderers /home/serge/.config/Code/CachedExtensionVSIXs/ms-toolsai.jupyter-renderers-1.0.4
+[2022-01-19 01:07:32.930] [sharedprocess] [info] Downloaded extension: dracula-theme.theme-dracula /home/serge/.config/Code/CachedExtensionVSIXs/dracula-theme.theme-dracula-2.24.1
+[2022-01-19 01:07:32.955] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.9c3a603b-af8e-4ade-968c-2086240b2ae8: dracula-theme.theme-dracula
+[2022-01-19 01:07:32.964] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/dracula-theme.theme-dracula-2.24.1
+[2022-01-19 01:07:32.967] [sharedprocess] [info] Extracting completed. dracula-theme.theme-dracula
+[2022-01-19 01:07:32.983] [sharedprocess] [info] Extension installed successfully: dracula-theme.theme-dracula
+[2022-01-19 01:07:33.006] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.b6acd6f9-a3be-48a2-b05e-c15534d0449a: ms-toolsai.jupyter-renderers
+[2022-01-19 01:07:33.089] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.4
+[2022-01-19 01:07:33.127] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter-renderers
+[2022-01-19 01:07:33.354] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-ssh-edit /home/serge/.config/Code/CachedExtensionVSIXs/ms-vscode-remote.remote-ssh-edit-0.70.0
+[2022-01-19 01:07:33.355] [sharedprocess] [info] Downloaded extension: ms-ceintl.vscode-language-pack-fr /home/serge/.config/Code/CachedExtensionVSIXs/ms-ceintl.vscode-language-pack-fr-1.63.3
+[2022-01-19 01:07:33.368] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+[2022-01-19 01:07:33.376] [sharedprocess] [info] Downloaded extension: ms-python.python /home/serge/.config/Code/CachedExtensionVSIXs/ms-python.python-2021.12.1559732655
+[2022-01-19 01:07:33.481] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-ssh /home/serge/.config/Code/CachedExtensionVSIXs/ms-vscode-remote.remote-ssh-0.70.0
+[2022-01-19 01:07:33.552] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.8b077a50-a86a-4e56-9d82-2d017441d8e4: ms-vscode-remote.remote-ssh-edit
+[2022-01-19 01:07:33.867] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/ms-vscode-remote.remote-ssh-edit-0.70.0
+[2022-01-19 01:07:33.876] [sharedprocess] [info] Downloaded extension: pkief.material-icon-theme /home/serge/.config/Code/CachedExtensionVSIXs/pkief.material-icon-theme-4.11.0
+[2022-01-19 01:07:33.876] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter /home/serge/.config/Code/CachedExtensionVSIXs/ms-toolsai.jupyter-2021.11.1001550889
+[2022-01-19 01:07:33.969] [sharedprocess] [info] Extracting completed. ms-vscode-remote.remote-ssh-edit
+[2022-01-19 01:07:34.068] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-containers /home/serge/.config/Code/CachedExtensionVSIXs/ms-vscode-remote.remote-containers-0.209.6
+[2022-01-19 01:07:34.285] [sharedprocess] [info] Downloaded extension: streetsidesoftware.code-spell-checker /home/serge/.config/Code/CachedExtensionVSIXs/streetsidesoftware.code-spell-checker-2.1.4
+[2022-01-19 01:07:34.286] [sharedprocess] [info] Downloaded extension: vscode-icons-team.vscode-icons /home/serge/.config/Code/CachedExtensionVSIXs/vscode-icons-team.vscode-icons-11.8.0
+[2022-01-19 01:07:34.293] [sharedprocess] [info] Downloaded extension: esbenp.prettier-vscode /home/serge/.config/Code/CachedExtensionVSIXs/esbenp.prettier-vscode-9.1.0
+[2022-01-19 01:07:34.294] [sharedprocess] [info] Extension installed successfully: ms-vscode-remote.remote-ssh-edit
+[2022-01-19 01:07:34.658] [sharedprocess] [info] Downloaded extension: nrwl.angular-console /home/serge/.config/Code/CachedExtensionVSIXs/nrwl.angular-console-17.13.7
+[2022-01-19 01:07:34.718] [sharedprocess] [info] Downloaded extension: ms-python.vscode-pylance /home/serge/.config/Code/CachedExtensionVSIXs/ms-python.vscode-pylance-2022.1.1
+[2022-01-19 01:07:34.938] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.1398c95e-862c-408d-aabe-e1f7a730db5e: ms-vscode-remote.remote-ssh
+[2022-01-19 01:07:34.958] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/ms-vscode-remote.remote-ssh-0.70.0
+[2022-01-19 01:07:34.962] [sharedprocess] [info] Extracting completed. ms-vscode-remote.remote-ssh
+[2022-01-19 01:07:34.980] [sharedprocess] [info] Extension installed successfully: ms-vscode-remote.remote-ssh
+[2022-01-19 01:07:35.169] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.0db3dc80-66de-4875-8a3b-2aef8e393687: ms-ceintl.vscode-language-pack-fr
+[2022-01-19 01:07:35.234] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/ms-ceintl.vscode-language-pack-fr-1.63.3
+[2022-01-19 01:07:35.243] [sharedprocess] [info] Extracting completed. ms-ceintl.vscode-language-pack-fr
+[2022-01-19 01:07:35.288] [sharedprocess] [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-fr
+[2022-01-19 01:07:35.444] [sharedprocess] [info] Extension installed successfully: ms-ceintl.vscode-language-pack-fr
+[2022-01-19 01:07:36.020] [sharedprocess] [info] Downloaded extension: angular.ng-template /home/serge/.config/Code/CachedExtensionVSIXs/angular.ng-template-13.1.0
+[2022-01-19 01:07:36.211] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.f275c5ea-eebd-4283-829c-a1736211673c: nrwl.angular-console
+[2022-01-19 01:07:36.232] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/nrwl.angular-console-17.13.7
+[2022-01-19 01:07:36.236] [sharedprocess] [info] Extracting completed. nrwl.angular-console
+[2022-01-19 01:07:36.250] [sharedprocess] [info] Extension installed successfully: nrwl.angular-console
+[2022-01-19 01:07:36.342] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.471cc825-3d30-4229-b75f-ecec20a576fd: streetsidesoftware.code-spell-checker
+[2022-01-19 01:07:36.413] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/streetsidesoftware.code-spell-checker-2.1.4
+[2022-01-19 01:07:36.419] [sharedprocess] [info] Extracting completed. streetsidesoftware.code-spell-checker
+[2022-01-19 01:07:36.439] [sharedprocess] [info] Extension installed successfully: streetsidesoftware.code-spell-checker
+[2022-01-19 01:07:36.911] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.2cfd5bd6-493b-47d0-977d-19ff8606728a: esbenp.prettier-vscode
+[2022-01-19 01:07:36.928] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/esbenp.prettier-vscode-9.1.0
+[2022-01-19 01:07:36.930] [sharedprocess] [info] Extracting completed. esbenp.prettier-vscode
+[2022-01-19 01:07:36.943] [sharedprocess] [info] Extension installed successfully: esbenp.prettier-vscode
+[2022-01-19 01:07:37.745] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.f21f6e21-d1e4-4ce9-8af6-de329408f30c: ms-vscode-remote.remote-containers
+[2022-01-19 01:07:37.795] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/ms-vscode-remote.remote-containers-0.209.6
+[2022-01-19 01:07:37.803] [sharedprocess] [info] Extracting completed. ms-vscode-remote.remote-containers
+[2022-01-19 01:07:37.814] [sharedprocess] [info] Extension installed successfully: ms-vscode-remote.remote-containers
+[2022-01-19 01:07:37.882] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.6d95918b-7d59-4ecd-93b8-a8014148d946: ms-toolsai.jupyter
+[2022-01-19 01:07:37.938] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/ms-toolsai.jupyter-2021.11.1001550889
+[2022-01-19 01:07:37.953] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter
+[2022-01-19 01:07:37.974] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter
+[2022-01-19 01:07:38.471] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.1dd9d22f-d287-47cb-9664-7dc2bdd76c60: pkief.material-icon-theme
+[2022-01-19 01:07:38.486] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/pkief.material-icon-theme-4.11.0
+[2022-01-19 01:07:38.488] [sharedprocess] [info] Extracting completed. pkief.material-icon-theme
+[2022-01-19 01:07:38.500] [sharedprocess] [info] Extension installed successfully: pkief.material-icon-theme
+[2022-01-19 01:07:39.007] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.61d1467d-b96c-4f95-92a5-2f2015f89b16: vscode-icons-team.vscode-icons
+[2022-01-19 01:07:39.155] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/vscode-icons-team.vscode-icons-11.8.0
+[2022-01-19 01:07:39.158] [sharedprocess] [info] Extracting completed. vscode-icons-team.vscode-icons
+[2022-01-19 01:07:39.167] [sharedprocess] [info] Extension installed successfully: vscode-icons-team.vscode-icons
+[2022-01-19 01:07:39.612] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.390934d7-6d2d-4daf-90bb-a31ff33e9f0e: angular.ng-template
+[2022-01-19 01:07:39.640] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/angular.ng-template-13.1.0
+[2022-01-19 01:07:39.642] [sharedprocess] [info] Extracting completed. angular.ng-template
+[2022-01-19 01:07:39.650] [sharedprocess] [info] Extension installed successfully: angular.ng-template
+[2022-01-19 01:07:40.943] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.590f1b66-32bd-4e96-9c9f-5e1972db8630: ms-python.python
+[2022-01-19 01:07:41.028] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/ms-python.python-2021.12.1559732655
+[2022-01-19 01:07:41.033] [sharedprocess] [info] Extracting completed. ms-python.python
+[2022-01-19 01:07:41.186] [sharedprocess] [info] Extension installed successfully: ms-python.python
+[2022-01-19 01:07:42.492] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.742fb695-e381-4fb9-bf37-ba1272406a63: ms-python.vscode-pylance
+[2022-01-19 01:07:42.505] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/ms-python.vscode-pylance-2022.1.1
+[2022-01-19 01:07:42.507] [sharedprocess] [info] Extracting completed. ms-python.vscode-pylance
+[2022-01-19 01:07:42.517] [sharedprocess] [info] Extension installed successfully: ms-python.vscode-pylance
+[2022-01-19 01:07:42.532] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2022-01-19 01:07:42.742] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter /home/serge/.config/Code/CachedExtensionVSIXs/ms-toolsai.jupyter-2021.11.1001550889
+[2022-01-19 01:07:43.220] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.fb3e80cc-5810-4f6d-add7-957093094885: ms-toolsai.jupyter
+[2022-01-19 01:07:43.250] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/ms-toolsai.jupyter-2021.11.1001550889
+[2022-01-19 01:07:43.253] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter
+[2022-01-19 01:07:43.257] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter
+[2022-01-19 01:07:54.286] [sharedprocess] [info] Installing extension: vscodevim.vim
+[2022-01-19 01:07:56.104] [sharedprocess] [info] Downloaded extension: vscodevim.vim /home/serge/.config/Code/CachedExtensionVSIXs/vscodevim.vim-1.21.10
+[2022-01-19 01:07:56.177] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.22bb233e-58d4-47e1-adfc-374b58a35e11: vscodevim.vim
+[2022-01-19 01:07:56.187] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/vscodevim.vim-1.21.10
+[2022-01-19 01:07:56.188] [sharedprocess] [info] Extracting completed. vscodevim.vim
+[2022-01-19 01:07:56.189] [sharedprocess] [info] Extension installed successfully: vscodevim.vim
+[2022-01-19 01:08:03.521] [sharedprocess] [error] [uncaught exception in sharedProcess]: Une erreur système s'est produite (ENOENT: no such file or directory, scandir '/home/serge/.config/Code/clp/9fdd4736c50ab5d00bf618b3d10bedcc.fr'): Error: ENOENT: no such file or directory, scandir '/home/serge/.config/Code/clp/9fdd4736c50ab5d00bf618b3d10bedcc.fr'

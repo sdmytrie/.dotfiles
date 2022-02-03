@@ -1,0 +1,45 @@
+[2022-01-22 22:17:12.121] [renderer1] [error] [Extension Host] (node:2685605) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2022-01-22 22:17:19.906] [renderer1] [info] Setting search error: XHR failed
+[2022-01-22 22:17:19.993] [renderer1] [info] Setting search error: XHR failed
+[2022-01-22 22:20:27.295] [renderer1] [info] Setting search error: XHR failed
+[2022-01-22 22:20:27.315] [renderer1] [info] Setting search error: XHR failed
+[2022-01-22 22:22:35.692] [renderer1] [info] Setting search error: XHR failed
+[2022-01-22 22:22:35.703] [renderer1] [info] Setting search error: XHR failed
+[2022-01-22 22:23:52.212] [renderer1] [info] Setting search error: XHR failed
+[2022-01-22 22:23:52.219] [renderer1] [info] Setting search error: XHR failed
+[2022-01-22 22:27:03.885] [renderer1] [info] Setting search error: XHR failed
+[2022-01-22 22:27:03.887] [renderer1] [info] Setting search error: XHR failed
+[2022-01-22 22:28:03.150] [renderer1] [info] Setting search error: XHR failed
+[2022-01-22 22:28:03.166] [renderer1] [info] Setting search error: XHR failed
+[2022-01-22 22:31:57.220] [renderer1] [info] Setting search error: XHR failed
+[2022-01-22 22:31:57.256] [renderer1] [info] Setting search error: XHR failed
+[2022-01-23 00:37:52.366] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+    at /home/serge/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+    at p (/home/serge/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+    at z.provideCompletionItems (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)
+[2022-01-23 17:56:47.845] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+    at /home/serge/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+    at p (/home/serge/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+    at z.provideCompletionItems (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)
+[2022-01-23 18:06:54.268] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+    at /home/serge/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+    at p (/home/serge/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+    at z.provideCompletionItems (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)
+[2022-01-23 18:06:55.154] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+    at Function.validate (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:30561)
+    at new t (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:30510)
+    at new t (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:17301)
+    at B (/home/serge/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:215318)
+    at Array.map (<anonymous>)
+    at Object.asDocumentSymbols (/home/serge/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:220656)
+    at /home/serge/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:124585
+    at s.provideDocumentSymbols (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:87704)
+[2022-01-23 18:14:47.968] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+    at /home/serge/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+    at p (/home/serge/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+    at z.provideCompletionItems (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)
+[2022-01-23 18:39:46.855] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+    at /home/serge/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+    at p (/home/serge/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+    at z.provideCompletionItems (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)

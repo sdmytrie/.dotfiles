@@ -1,0 +1,65 @@
+[2022-01-19 21:49:00.843] [main] [info] update#setState idle
+[2022-01-19 21:49:00.977] [main] [info] ExtensionHostStarterWorker created
+[2022-01-19 21:49:02.017] [main] [info] Starting extension host with pid 41269 (fork() took 9 ms).
+[2022-01-19 21:49:30.848] [main] [info] update#setState checking for updates
+[2022-01-19 21:49:30.859] [main] [info] update#setState idle
+[2022-01-19 22:49:30.893] [main] [info] update#setState checking for updates
+[2022-01-19 22:49:30.897] [main] [info] update#setState idle
+[2022-01-20 18:08:48.800] [main] [info] update#setState checking for updates
+[2022-01-20 18:08:48.803] [main] [info] update#setState idle
+[2022-01-20 19:08:48.363] [main] [info] update#setState checking for updates
+[2022-01-20 19:08:48.367] [main] [info] update#setState idle
+[2022-01-20 20:08:48.472] [main] [info] update#setState checking for updates
+[2022-01-20 20:08:48.475] [main] [info] update#setState idle
+[2022-01-20 21:08:48.559] [main] [info] update#setState checking for updates
+[2022-01-20 21:08:48.570] [main] [info] update#setState idle
+[2022-01-20 22:08:48.657] [main] [info] update#setState checking for updates
+[2022-01-20 22:08:48.672] [main] [info] update#setState idle
+[2022-01-20 23:08:48.699] [main] [info] update#setState checking for updates
+[2022-01-20 23:08:48.702] [main] [info] update#setState idle
+[2022-01-21 00:08:48.717] [main] [info] update#setState checking for updates
+[2022-01-21 00:08:48.741] [main] [info] update#setState idle
+[2022-01-21 01:08:48.823] [main] [info] update#setState checking for updates
+[2022-01-21 01:08:48.833] [main] [info] update#setState idle
+[2022-01-21 02:08:48.896] [main] [info] update#setState checking for updates
+[2022-01-21 02:08:48.907] [main] [info] update#setState idle
+[2022-01-21 03:08:49.009] [main] [info] update#setState checking for updates
+[2022-01-21 03:08:49.011] [main] [info] update#setState idle
+[2022-01-21 04:08:49.109] [main] [info] update#setState checking for updates
+[2022-01-21 04:08:49.111] [main] [info] update#setState idle
+[2022-01-21 05:08:49.210] [main] [info] update#setState checking for updates
+[2022-01-21 05:08:49.220] [main] [info] update#setState idle
+[2022-01-21 06:08:49.310] [main] [info] update#setState checking for updates
+[2022-01-21 06:08:49.319] [main] [info] update#setState idle
+[2022-01-21 07:08:49.410] [main] [info] update#setState checking for updates
+[2022-01-21 07:08:49.419] [main] [info] update#setState idle
+[2022-01-21 08:08:49.522] [main] [info] update#setState checking for updates
+[2022-01-21 08:08:49.525] [main] [info] update#setState idle
+[2022-01-21 09:08:49.609] [main] [info] update#setState checking for updates
+[2022-01-21 09:08:49.611] [main] [info] update#setState idle
+[2022-01-21 10:08:49.713] [main] [info] update#setState checking for updates
+[2022-01-21 10:08:49.715] [main] [info] update#setState idle
+[2022-01-21 11:08:49.798] [main] [info] update#setState checking for updates
+[2022-01-21 11:08:49.799] [main] [info] update#setState idle
+[2022-01-21 12:08:49.897] [main] [info] update#setState checking for updates
+[2022-01-21 12:08:49.899] [main] [info] update#setState idle
+[2022-01-21 13:08:49.980] [main] [info] update#setState checking for updates
+[2022-01-21 13:08:49.991] [main] [info] update#setState idle
+[2022-01-21 14:08:50.074] [main] [info] update#setState checking for updates
+[2022-01-21 14:08:50.077] [main] [info] update#setState idle
+[2022-01-21 15:08:50.168] [main] [info] update#setState checking for updates
+[2022-01-21 15:08:50.179] [main] [info] update#setState idle
+[2022-01-21 16:08:50.281] [main] [info] update#setState checking for updates
+[2022-01-21 16:08:50.284] [main] [info] update#setState idle
+[2022-01-21 17:08:50.370] [main] [info] update#setState checking for updates
+[2022-01-21 17:08:50.372] [main] [info] update#setState idle
+[2022-01-21 18:08:50.479] [main] [info] update#setState checking for updates
+[2022-01-21 18:08:50.489] [main] [info] update#setState idle
+[2022-01-21 23:30:36.745] [main] [info] update#setState checking for updates
+[2022-01-21 23:30:36.754] [main] [info] update#setState idle
+[2022-01-22 00:30:36.843] [main] [info] update#setState checking for updates
+[2022-01-22 00:30:36.845] [main] [info] update#setState idle
+[2022-01-22 14:05:50.699] [main] [info] update#setState checking for updates
+[2022-01-22 14:05:50.719] [main] [info] update#setState idle
+[2022-01-22 14:20:07.900] [main] [info] Waiting for extension host with pid 41269 to exit.
+[2022-01-22 14:20:08.401] [main] [info] Extension host with pid 41269 exited with code: 0, signal: null.

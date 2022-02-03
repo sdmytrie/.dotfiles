@@ -1,0 +1,4 @@
+[Info  - 01:07:27] Angular language server process ID: 3472083
+[Info  - 01:07:27] Using typescript/lib/tsserverlibrary v4.4.3 from /home/serge/.vscode/extensions/angular.ng-template-13.0.0/node_modules/typescript/lib/tsserverlibrary.js
+[Info  - 01:07:27] Using @angular/language-service v13.0.0 from /home/serge/.vscode/extensions/angular.ng-template-13.0.0/node_modules/@angular/language-service/index.js
+[Info  - 01:07:27] Logging is turned off. To enable, run command 'Open Angular server log'.

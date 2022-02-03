@@ -1,0 +1,26 @@
+[Info  - 01:22:12] Pylance language server 2022.1.1 (pyright 4f61d443) starting
+[Info  - 01:22:12] Server root directory: /home/serge/.vscode/extensions/ms-python.vscode-pylance-2022.1.1/dist
+[Info  - 01:22:13] Background analysis(1) root directory: /home/serge/.vscode/extensions/ms-python.vscode-pylance-2022.1.1/dist
+[Info  - 01:22:13] Background analysis(1) started
+[Info  - 01:22:13] No configuration file found.
+[Info  - 01:22:13] No pyproject.toml file found.
+[Info  - 01:22:13] Setting pythonPath for service "ffhm": "/opt/Projects/ffhm/venv/bin/python"
+[Warn  - 01:22:13] stubPath /opt/Projects/ffhm/typings is not a valid directory.
+[Info  - 01:22:13] Assuming Python version 3.8
+[Info  - 01:22:13] Assuming Python platform Linux
+[Warn  - 01:22:13] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 01:22:13] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Info  - 01:22:13] Searching for source files
+[Info  - 01:22:13] Auto-excluding /opt/Projects/ffhm/venv
+[Info  - 01:22:13] Found 51 source files
+[Info  - 01:33:09] No configuration file found.
+[Info  - 01:33:09] No pyproject.toml file found.
+[Info  - 01:33:09] Setting pythonPath for service "ffhm": "/opt/Projects/ffhm/venv/bin/python"
+[Warn  - 01:33:09] stubPath /opt/Projects/ffhm/typings is not a valid directory.
+[Info  - 01:33:09] Assuming Python version 3.8
+[Info  - 01:33:09] Assuming Python platform Linux
+[Warn  - 01:33:09] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 01:33:09] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Info  - 01:33:09] Searching for source files
+[Info  - 01:33:09] Auto-excluding /opt/Projects/ffhm/venv
+[Info  - 01:33:09] Found 51 source files

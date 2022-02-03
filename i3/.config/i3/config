@@ -250,13 +250,13 @@ exec urxvt
 #exec urxvt -e ranger
 exec evolution
 exec google-chrome
-#exec_always feh --bg-scale /home/serge/Images/wallpaper.jpg
-exec_always nitrogen --restore
+exec_always feh --bg-scale /home/serge/Images/287831.jpg
+#exec_always nitrogen --restore
 
 #exec_always xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-1 --off
 exec_always xrandr --output eDP-1 --primary --mode 1600x900 --pos 0x0 --rotate normal --output HDMI-1 --off
 exec --no-startup-id gnome-settings-daemon
-#exec --no-startup-id compton -f
+exec --no-startup-id compton -f
 exec_always kdeconnect-indicator
 exec_always blueman-applet
 exec_always --no-startup-id numlockx on

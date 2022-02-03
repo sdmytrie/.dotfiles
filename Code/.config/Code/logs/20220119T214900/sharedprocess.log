@@ -1,0 +1,13 @@
+[2022-01-19 21:49:16.903] [sharedprocess] [info] Starting worker process with pid 41759 (type: watcherServiceParcelSharedProcess, window: 1).
+[2022-01-19 21:49:20.056] [sharedprocess] [info] Installing extension: angular.ng-template
+[2022-01-19 21:49:20.086] [sharedprocess] [info] Installing extension: eg2.vscode-npm-script
+[2022-01-19 21:49:21.349] [sharedprocess] [info] Downloaded extension: eg2.vscode-npm-script /home/serge/.config/Code/CachedExtensionVSIXs/eg2.vscode-npm-script-0.3.24
+[2022-01-19 21:49:21.421] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.ca1a528e-441b-4ac0-bad4-9a4dd9d9d48e: eg2.vscode-npm-script
+[2022-01-19 21:49:21.430] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/eg2.vscode-npm-script-0.3.24
+[2022-01-19 21:49:21.432] [sharedprocess] [info] Extracting completed. eg2.vscode-npm-script
+[2022-01-19 21:49:21.441] [sharedprocess] [info] Extension installed successfully: eg2.vscode-npm-script
+[2022-01-19 21:49:21.924] [sharedprocess] [info] Downloaded extension: angular.ng-template /home/serge/.config/Code/CachedExtensionVSIXs/angular.ng-template-13.1.1
+[2022-01-19 21:49:22.756] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.817c1cc0-06c1-4732-b4ce-25b91620854f: angular.ng-template
+[2022-01-19 21:49:22.772] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/angular.ng-template-13.1.1
+[2022-01-19 21:49:22.773] [sharedprocess] [info] Extracting completed. angular.ng-template
+[2022-01-19 21:49:22.780] [sharedprocess] [info] Extension installed successfully: angular.ng-template

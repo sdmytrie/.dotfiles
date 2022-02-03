@@ -1,0 +1,8 @@
+[2022-01-24 18:16:58.583] [sharedprocess] [info] Starting worker process with pid 2808644 (type: watcherServiceParcelSharedProcess, window: 1).
+[2022-01-24 18:17:03.058] [sharedprocess] [info] Installing extension: pkief.material-icon-theme
+[2022-01-24 18:17:04.718] [sharedprocess] [info] Downloaded extension: pkief.material-icon-theme /home/serge/.config/Code/CachedExtensionVSIXs/pkief.material-icon-theme-4.12.1
+[2022-01-24 18:17:06.252] [sharedprocess] [info] Extracted extension to /home/serge/.vscode/extensions/.9b91bfb8-87c4-4e25-8608-c78e156509f4: pkief.material-icon-theme
+[2022-01-24 18:17:06.270] [sharedprocess] [info] Renamed to /home/serge/.vscode/extensions/pkief.material-icon-theme-4.12.1
+[2022-01-24 18:17:06.273] [sharedprocess] [info] Extracting completed. pkief.material-icon-theme
+[2022-01-24 18:17:06.286] [sharedprocess] [info] Extension installed successfully: pkief.material-icon-theme
+[2022-01-26 19:40:41.419] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds

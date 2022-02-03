@@ -1,111 +1,76 @@
-" git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-set backupdir=~/.vim/backup//
-set directory=~/.vim/swap//
-set undodir=~/.vim/undo//
-set nocompatible
-"set t_Co=256
-colorscheme desert
-"colorscheme ron
-set background=dark
-syntax enable
-"filetype plugin on
+syntax on
+
+set noerrorbells
+set tabstop=4 softtabstop=4
+set shiftwidth=4
+set expandtab
+set smartindent
+set nu rnu
+set nowrap
+set smartcase
+set noswapfile
+set nobackup
+set undodir=~/.vim/undodir
+set undofile
+set incsearch
+set t_Co=256
 set path+=.,**
 set wildignore+=**/node_modules/**
 set wildignore+=**/venv/**
 set wildignore+=**/__pycache__/**
 set wildmenu
-set hlsearch
-set incsearch
+" set hlsearch
 set scrolloff=4
-noremap <C-Insert> :tabnew<CR>
-noremap <C-Delete> :tabclose<CR>
-
-nnoremap th  :tabfirst<CR>
-nnoremap tk  :tabnext<CR>
-nnoremap tj  :tabprev<CR>
-nnoremap tl  :tablast<CR>
-nnoremap tt  :tabedit<Space>
-nnoremap tn  :tabnext<Space>
-nnoremap tm  :tabm<Space>
-nnoremap td  :tabclose<CR>
-" Alternatively use
-"nnoremap th :tabnext<CR>
-"nnoremap tl :tabprev<CR>
-"nnoremap tn :tabnew<CR>
-
-"set showbreak=↪\
-"set listchars=tab:→\ ,eol:↲,nbsp:␣,trail:•,extends:⟩,precedes:⟨
 set listchars=tab:→\ ,eol:↲
-
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'gmarik/Vundle.vim'
-Plugin 'itchyny/lightline.vim'
-" Plugin 'altercation/vim-colors-solarized'
-Plugin 'preservim/nerdtree'
-"Plugin 'HerringtonDarkholme/yats.vim'
-Plugin 'neoclide/coc.nvim'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'francoiscabrol/ranger.vim'
-Plugin 'vim-scripts/indentpython.vim'
-"Plugin 'Valloric/YouCompleteMe'
-"Plugin 'vim-syntastic/syntastic'
-"Plugin 'nvie/vim-flake8'
-Plugin 'dense-analysis/ale'
-
-call vundle#end()
-filetype plugin indent on
-"filetype plugin on
-
-autocmd VimEnter * wincmd p
-
-set ai
-set nu relativenumber
 set encoding=utf-8
-set sm
-set tabstop=2 shiftwidth=2 expandtab
 
-set laststatus=2
+set colorcolumn=80
+highlight ColorColumn ctermbg=0 guibg=lightgrey
 
-set splitbelow splitright
+call plug#begin('~/.vim/plugged')
 
-"noremap <silent> <M-left> :vertical resize +5<CR>
-"noremap <silent> <M-right> :vertical resize -5<CR>
-"noremap <silent> <M-up> :vertical resize +5<CR>
-"noremap <silent> <M-down> :vertical resize -5<CR>
-noremap <C-A> :let &winwidth = &columns * 8 / 10<CR>
+Plug 'itchyny/lightline.vim'
+Plug 'morhetz/gruvbox'
+Plug 'jremmen/vim-ripgrep'
+Plug 'tpope/vim-fugitive'
+Plug 'leafgarland/typescript-vim'
+Plug 'vim-utils/vim-man'
+Plug 'lyuts/vim-rtags'
+Plug 'git@github.com:kien/ctrlp.vim.git'
+Plug 'git@github.com:Valloric/YouCompleteMe.git'
+Plug 'mbbill/undotree'
 
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+call plug#end()
 
-"hi Pmenu ctermfg=250 ctermbg=235 gui=underline guifg=#bcbcbc guibg=#262626
-"hi PmenuSel ctermfg=250 ctermbg=131 gui=underline guifg=#bcbcbc guibg=#af5f5f
-"
-"hi Folded ctermfg=7
-"hi Folded ctermbg=black
-"
-"hi ToolbarLine ctermfg=7
-"hi ToolbarLine ctermbg=black
+colorscheme gruvbox
+set background=dark
 
-" Disables automatic comment on new line
-autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+if executable('rg')
+    let g:rg_derive_root='true'
+endif
 
-" Automatically delete all trailing spaces on save
-" autocmd BufWritePre * %s/\s\+$//e
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+let mapleader=" "
+let g:netrw_browse_split=2
+let g:netrw_banner=0
+let g:netrw_winsize=25
+let g:loaded_matchparen=1
 
-" vim-prettier
-"let g:prettier#quickfix_enabled = 0
-"let g:prettier#quickfix_auto_focus = 0
+let g:ctrlp_use_caching=0
 
-" run prettier on save
-" let g:prettier#autoformat = 0
-" autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html Prettier
+nnoremap <leader>h :wincmd h<CR>
+nnoremap <leader>j :wincmd j<CR>
+nnoremap <leader>k :wincmd k<CR>
+nnoremap <leader>l :wincmd l<CR>
+nnoremap <leader>u :UndotreeShow<CR>
+nnoremap <leader>pv :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>
+nnoremap <leader>ps :Rg<CR>
+nnoremap <silent> <leader>+ :vertical resize +5<CR>
+nnoremap <silent> <leader>- :vertical resize -5<CR>
 
-autocmd BufWinLeave *.* mkview
-autocmd BufWinEnter *.* silent loadview
-command! WipeReg for i in range(34,122) | silent! call setreg(nr2char(i), []) | endfor
+nnoremap <silent> <leader>gd :YcmCompleter GoTo<CR>
+nnoremap <silent> <leader>gf :YcmCompleter FixIt<CR>
 
-set cursorline
 if has("autocmd")
   au VimEnter,InsertLeave * silent execute '!echo -ne "\e[2 q"' | redraw!
   au InsertEnter,InsertChange *
@@ -116,9 +81,3 @@ if has("autocmd")
 \ endif
 au VimLeave * silent execute '!echo -ne "\e[ q"' | redraw!
 endif
-let g:loaded_matchparen=1
-
-if !has('gui_running')
-  set t_Co=256
-endif
-set noshowmode

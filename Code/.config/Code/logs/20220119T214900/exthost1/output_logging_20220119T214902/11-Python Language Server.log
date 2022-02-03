@@ -1,0 +1,18 @@
+[Info  - 21:49:05] Pylance language server 2022.1.1 (pyright 4f61d443) starting
+[Info  - 21:49:05] Server root directory: /home/serge/.vscode/extensions/ms-python.vscode-pylance-2022.1.1/dist
+[Info  - 21:49:06] Background analysis(1) root directory: /home/serge/.vscode/extensions/ms-python.vscode-pylance-2022.1.1/dist
+[Info  - 21:49:06] Background analysis(1) started
+[Info  - 21:49:06] No configuration file found.
+[Info  - 21:49:06] No pyproject.toml file found.
+[Info  - 21:49:06] Setting pythonPath for service "ffhm": "/opt/Projects/ffhm/venv/bin/python"
+[Warn  - 21:49:06] stubPath /opt/Projects/ffhm/typings is not a valid directory.
+[Info  - 21:49:06] Assuming Python version 3.8
+[Info  - 21:49:06] Assuming Python platform Linux
+[Warn  - 21:49:06] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 21:49:06] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Info  - 21:49:06] Searching for source files
+[Info  - 21:49:06] Auto-excluding /opt/Projects/ffhm/venv
+[Info  - 21:49:06] Found 51 source files
+[Info  - 21:49:07] Indexer background runner(2) root directory: /home/serge/.vscode/extensions/ms-python.vscode-pylance-2022.1.1/dist
+[Info  - 21:49:07] Indexing(2) started
+[Info  - 21:49:08] Indexer done(2). indexed 440 files

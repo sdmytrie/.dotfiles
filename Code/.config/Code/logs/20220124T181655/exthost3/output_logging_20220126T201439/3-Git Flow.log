@@ -1,0 +1,7 @@
+git config gitflow.branch.master
+git config gitflow.branch.develop
+git config gitflow.prefix.feature
+git config gitflow.prefix.release
+git config gitflow.prefix.hotfix
+git config gitflow.prefix.support
+git config gitflow.prefix.versiontag

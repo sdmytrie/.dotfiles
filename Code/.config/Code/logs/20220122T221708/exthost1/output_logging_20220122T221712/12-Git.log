@@ -1,0 +1,357 @@
+Validation du git trouvé dans : git
+Utilisation de git 2.25.1 à partir de git
+> git rev-parse --git-dir
+Open repository: /opt/Projects/ffhm
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :scoresheet/views/concurrent.py
+> git ls-files --stage -- /opt/Projects/ffhm/scoresheet/views/concurrent.py
+> git cat-file -s 5ebd6a158fc9defcdf7ac70a29a6167f5e179c40
+> git show --textconv :scoresheet/views/concurrent.py
+> git ls-files --stage -- /opt/Projects/ffhm/scoresheet/views/concurrent.py
+> git cat-file -s 5ebd6a158fc9defcdf7ac70a29a6167f5e179c40
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /opt/Projects/ffhm/scoresheet/views/concurrent.py
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :scoresheet/views/competition.py
+> git ls-files --stage -- /opt/Projects/ffhm/scoresheet/views/competition.py
+> git cat-file -s 133de8c9a62fed8c96124ce5d8a7acf6040ab2f9
+> git show --textconv :scoresheet/views/competition.py
+> git ls-files --stage -- /opt/Projects/ffhm/scoresheet/views/competition.py
+> git cat-file -s 133de8c9a62fed8c96124ce5d8a7acf6040ab2f9
+> git show --textconv :api/admin.py
+> git ls-files --stage -- /opt/Projects/ffhm/api/admin.py
+> git cat-file -s 57204f4ac1875b040100522397bbb54dcfa8920c
+> git show --textconv :scoresheet/views/competition.py
+> git ls-files --stage -- /opt/Projects/ffhm/scoresheet/views/competition.py
+> git cat-file -s 133de8c9a62fed8c96124ce5d8a7acf6040ab2f9
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /opt/Projects/ffhm/scoresheet/views/competition.py
+> git show --textconv :api/apps.py
+> git ls-files --stage -- /opt/Projects/ffhm/api/apps.py
+> git cat-file -s 00620b6b341c9c2d399f2258f00f7780fd82237d
+> git show --textconv :scoresheet/views/competition.py
+> git ls-files --stage -- /opt/Projects/ffhm/scoresheet/views/competition.py
+> git cat-file -s 133de8c9a62fed8c96124ce5d8a7acf6040ab2f9
+> git show --textconv :api/models.py
+> git ls-files --stage -- /opt/Projects/ffhm/api/models.py
+> git cat-file -s 9cf8f85f2c425f5af6dcb77547c82544a6a9e3f6
+> git show --textconv :api/signals.py
+> git ls-files --stage -- /opt/Projects/ffhm/api/signals.py
+> git cat-file -s 508cd2db358adade6fd44be2106aeb2b7965de3c
+> git show --textconv :scoresheet/views/competition.py
+> git ls-files --stage -- /opt/Projects/ffhm/scoresheet/views/competition.py
+> git cat-file -s 133de8c9a62fed8c96124ce5d8a7acf6040ab2f9
+> git show --textconv :scoresheet/views/concurrent.py
+> git ls-files --stage -- /opt/Projects/ffhm/scoresheet/views/concurrent.py
+> git cat-file -s 5ebd6a158fc9defcdf7ac70a29a6167f5e179c40
+> git show --textconv :scoresheet/views/competition.py
+> git ls-files --stage -- /opt/Projects/ffhm/scoresheet/views/competition.py
+> git cat-file -s 133de8c9a62fed8c96124ce5d8a7acf6040ab2f9
+> git show --textconv :api/models.py
+> git ls-files --stage -- /opt/Projects/ffhm/api/models.py
+> git cat-file -s 9cf8f85f2c425f5af6dcb77547c82544a6a9e3f6
+> git status -z -u
+> git ls-files --stage -- /opt/Projects/ffhm/api/models.py
+> git symbolic-ref --short HEAD
+> git cat-file -s 9cf8f85f2c425f5af6dcb77547c82544a6a9e3f6
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show --textconv :api/models.py
+> git config --get commit.template
+> git show --textconv :api/admin.py
+> git ls-files --stage -- /opt/Projects/ffhm/api/admin.py
+> git cat-file -s 57204f4ac1875b040100522397bbb54dcfa8920c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :api/models.py
+> git ls-files --stage -- /opt/Projects/ffhm/api/models.py
+> git cat-file -s 9cf8f85f2c425f5af6dcb77547c82544a6a9e3f6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :api/admin.py
+> git ls-files --stage -- /opt/Projects/ffhm/api/admin.py
+> git cat-file -s 57204f4ac1875b040100522397bbb54dcfa8920c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :scoresheet/views/competition.py
+> git ls-files --stage -- /opt/Projects/ffhm/scoresheet/views/competition.py
+> git cat-file -s 133de8c9a62fed8c96124ce5d8a7acf6040ab2f9
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :api/admin.py
+> git ls-files --stage -- /opt/Projects/ffhm/api/admin.py
+> git cat-file -s 57204f4ac1875b040100522397bbb54dcfa8920c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :api/models.py
+> git ls-files --stage -- /opt/Projects/ffhm/api/models.py
+> git cat-file -s 9cf8f85f2c425f5af6dcb77547c82544a6a9e3f6
+> git show --textconv :scoresheet/views/competition.py
+> git ls-files --stage -- /opt/Projects/ffhm/scoresheet/views/competition.py
+> git cat-file -s 133de8c9a62fed8c96124ce5d8a7acf6040ab2f9
+> git show --textconv :api/models.py
+> git ls-files --stage -- /opt/Projects/ffhm/api/models.py
+> git cat-file -s 9cf8f85f2c425f5af6dcb77547c82544a6a9e3f6
+> git show --textconv :api/admin.py
+> git ls-files --stage -- /opt/Projects/ffhm/api/admin.py
+> git cat-file -s 57204f4ac1875b040100522397bbb54dcfa8920c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :scoresheet/views/competition.py
+> git ls-files --stage -- /opt/Projects/ffhm/scoresheet/views/competition.py
+> git cat-file -s 133de8c9a62fed8c96124ce5d8a7acf6040ab2f9
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :scoresheet/templates/scoresheet/competition/competition_add.html
+> git ls-files --stage -- /opt/Projects/ffhm/scoresheet/templates/scoresheet/competition/competition_add.html
+> git cat-file -s da6cd6f5b37e23f99a7611fc41d5f578eacb2726
+> git show --textconv :scoresheet/forms.py
+> git ls-files --stage -- /opt/Projects/ffhm/scoresheet/forms.py
+> git cat-file -s 6cedc8018ad0280e6b9657eaec454cb9f7e4833c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :scoresheet/templates/scoresheet/competition/competition_add.html
+> git ls-files --stage -- /opt/Projects/ffhm/scoresheet/templates/scoresheet/competition/competition_add.html
+> git cat-file -s da6cd6f5b37e23f99a7611fc41d5f578eacb2726
+> git show --textconv :scoresheet/templates/scoresheet/competition/_competition_form.html
+> git ls-files --stage -- /opt/Projects/ffhm/scoresheet/templates/scoresheet/competition/_competition_form.html
+> git cat-file -s f14bbfa836aad33e9c61e3ce5f07b9327b5ee2ef
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :api/models.py
+> git ls-files --stage -- /opt/Projects/ffhm/api/models.py
+> git cat-file -s 9cf8f85f2c425f5af6dcb77547c82544a6a9e3f6
+> git show --textconv :scoresheet/views/competition.py
+> git ls-files --stage -- /opt/Projects/ffhm/scoresheet/views/competition.py
+> git cat-file -s 133de8c9a62fed8c96124ce5d8a7acf6040ab2f9
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git ls-files --stage -- /opt/Projects/ffhm/scoresheet/views/competition.py
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git cat-file -s d33bbce0fe57323eaf19f32f8483fcf81d788582
+> git show --textconv :scoresheet/views/competition.py
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :scoresheet/templates/scoresheet/competition/competition_add.html
+> git ls-files --stage -- /opt/Projects/ffhm/scoresheet/templates/scoresheet/competition/competition_add.html
+> git cat-file -s da6cd6f5b37e23f99a7611fc41d5f578eacb2726
+> git show --textconv :scoresheet/templates/scoresheet/competition/competition_edit.html
+> git ls-files --stage -- /opt/Projects/ffhm/scoresheet/templates/scoresheet/competition/competition_edit.html
+> git cat-file -s a884d92812ff9f6e12673843cbaab40c289d5e17
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :scoresheet/templates/scoresheet/competition/_competition_form.html
+> git ls-files --stage -- /opt/Projects/ffhm/scoresheet/templates/scoresheet/competition/_competition_form.html
+> git cat-file -s 76188d582e683996cdc2bcf47726cd4e32f6caac
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/develop refs/remotes/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

@@ -1,0 +1,65 @@
+Jupyter Extension Version: 2021.11.1001550889.
+Python Extension Verison: 2021.12.1559732655.
+Info 21:49:03: Experimentation service retrieved: [object Object]
+User belongs to experiment group 'jupyterTestcf'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+Error 21:49:03: Exception while attempting zmq : Error: /snap/core/current/usr/lib/x86_64-linux-gnu/libstdc++.so.6: version `GLIBCXX_3.4.22' not found (required by /home/serge/.vscode/extensions/ms-toolsai.jupyter-2021.11.1001550889/out/client/node_modules/zeromq/prebuilds/linux-x64/electron.napi.glibc.node)
+    at process.func [as dlopen] (electron/js2c/asar_bundle.js:5:1846)
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1185:18)
+    at Object.func [as .node] (electron/js2c/asar_bundle.js:5:1846)
+    at Module.load (internal/modules/cjs/loader.js:982:32)
+    at Module._load (internal/modules/cjs/loader.js:823:14)
+    at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+    at Function.t._load (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:32222)
+    at Function.p._load (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:28887)
+    at Function.f._load (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:61699)
+    at Module.require (internal/modules/cjs/loader.js:1006:19)
+    at h (/snap/code/85/usr/share/code/resources/app/out/vs/loader.js:4:699)
+    at load (/home/serge/.vscode/extensions/ms-toolsai.jupyter-2021.11.1001550889/out/client/node_modules/node-gyp-build/index.js:21:10)
+    at Object.<anonymous> (/home/serge/.vscode/extensions/ms-toolsai.jupyter-2021.11.1001550889/out/client/node_modules/zeromq/lib/native.js:6:43)
+    at Module.u._compile (/snap/code/85/usr/share/code/resources/app/out/vs/loader.js:4:1316)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1155:10)
+    at Module.load (internal/modules/cjs/loader.js:982:32)
+    at Module._load (internal/modules/cjs/loader.js:823:14)
+    at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+    at Function.t._load (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:32222)
+    at Function.p._load (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:28887)
+    at Function.f._load (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:61699)
+    at Module.require (internal/modules/cjs/loader.js:1006:19)
+    at h (/snap/code/85/usr/share/code/resources/app/out/vs/loader.js:4:699)
+    at Object.<anonymous> (/home/serge/.vscode/extensions/ms-toolsai.jupyter-2021.11.1001550889/out/client/node_modules/zeromq/lib/index.js:3:16)
+    at Module.u._compile (/snap/code/85/usr/share/code/resources/app/out/vs/loader.js:4:1316)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1155:10)
+    at Module.load (internal/modules/cjs/loader.js:982:32)
+    at Module._load (internal/modules/cjs/loader.js:823:14)
+    at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+    at Function.t._load (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:32222)
+    at Function.p._load (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:28887)
+    at Function.f._load (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:61699)
+    at Module.require (internal/modules/cjs/loader.js:1006:19)
+    at h (/snap/code/85/usr/share/code/resources/app/out/vs/loader.js:4:699)
+    at Object.<anonymous> (/home/serge/.vscode/extensions/ms-toolsai.jupyter-2021.11.1001550889/out/client/extension.js:51:189136)
+    at n (/home/serge/.vscode/extensions/ms-toolsai.jupyter-2021.11.1001550889/out/client/extension.js:1:186)
+    at d.zmqSupported (/home/serge/.vscode/extensions/ms-toolsai.jupyter-2021.11.1001550889/out/client/extension.js:104:269062)
+    at d.isSupportedForLocalLaunch (/home/serge/.vscode/extensions/ms-toolsai.jupyter-2021.11.1001550889/out/client/extension.js:104:268710)
+    at d.get isSupported [as isSupported] (/home/serge/.vscode/extensions/ms-toolsai.jupyter-2021.11.1001550889/out/client/extension.js:104:268620)
+    at t.registerTypes (/home/serge/.vscode/extensions/ms-toolsai.jupyter-2021.11.1001550889/out/client/extension.js:66:1067484)
+    at /home/serge/.vscode/extensions/ms-toolsai.jupyter-2021.11.1001550889/out/client/extension.js:66:245321
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at /home/serge/.vscode/extensions/ms-toolsai.jupyter-2021.11.1001550889/out/client/extension.js:51:746357
+    at t.activate (/home/serge/.vscode/extensions/ms-toolsai.jupyter-2021.11.1001550889/out/client/extension.js:51:746036)
+    at async Promise.all (index 2)
+Info 21:49:04: Experiment status for python is {"enabled":true,"optInto":[],"optOutFrom":[]}
+Info 21:49:04: Process Execution: > /opt/Projects/ffhm/venv/bin/python -m pip list
+> /opt/Projects/ffhm/venv/bin/python -m pip list
+Info 21:49:04: Process Execution: > /opt/Projects/ffhm/venv/bin/python -c "import jupyter"
+> /opt/Projects/ffhm/venv/bin/python -c "import jupyter"
+Info 21:49:04: Process Execution: > /opt/Projects/ffhm/venv/bin/python -c "import notebook"
+> /opt/Projects/ffhm/venv/bin/python -c "import notebook"
+Info 14:20:07: Shutting down notebooks for 7c453d49-feaa-4f1f-b67f-c088f799bf40
+Info 14:20:07: Disposing HostJupyterExecution f4bd5944-e29a-487d-85af-046572f63d62
+Info 14:20:07: Disposing super HostJupyterExecution f4bd5944-e29a-487d-85af-046572f63d62
+Info 14:20:07: Disposing HostJupyterExecution f4bd5944-e29a-487d-85af-046572f63d62
+Info 14:20:07: Finished disposing HostJupyterExecution  f4bd5944-e29a-487d-85af-046572f63d62
+Info 14:20:07: Cleaning up server cache f4bd5944-e29a-487d-85af-046572f63d62
+Info 14:20:07: Finished disposing HostJupyterExecution  f4bd5944-e29a-487d-85af-046572f63d62
