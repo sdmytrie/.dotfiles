@@ -1,3 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
-let g:netrw_dirhist_1='/home/serge'
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/serge/.dotfiles/vim'
+let g:netrw_dirhist_3='/opt/Projects/ffhm/api'
+let g:netrw_dirhist_2='/opt/Projects/ffhm'
+let g:netrw_dirhist_1='/opt/Projects/ffhm/scoresheet'
+let g:netrw_dirhist_0='/opt/Projects/ffhm/scoresheet/templates'
+let g:netrw_dirhist_9='/opt/Projects/ffhm/scoresheet/templates/scoresheet'
+let g:netrw_dirhist_8='/opt/Projects/ffhm/scoresheet/templates/scoresheet/competition'
+let g:netrw_dirhist_7='/opt/Projects/ffhm/scoresheet/templates/scoresheet'
+let g:netrw_dirhist_6='/opt/Projects/ffhm/scoresheet/templates'
+let g:netrw_dirhist_5='/opt/Projects/ffhm/scoresheet'

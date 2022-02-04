@@ -19,10 +19,13 @@ set wildignore+=**/node_modules/**
 set wildignore+=**/venv/**
 set wildignore+=**/__pycache__/**
 set wildmenu
-" set hlsearch
+set hlsearch
 set scrolloff=4
 set listchars=tab:→\ ,eol:↲
 set encoding=utf-8
+set splitbelow splitright
+set visualbell
+set belloff=all
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
@@ -33,12 +36,15 @@ Plug 'itchyny/lightline.vim'
 Plug 'morhetz/gruvbox'
 Plug 'jremmen/vim-ripgrep'
 Plug 'tpope/vim-fugitive'
+Plug 'vim-airline/vim-airline'
 Plug 'leafgarland/typescript-vim'
 Plug 'vim-utils/vim-man'
 Plug 'lyuts/vim-rtags'
 Plug 'git@github.com:kien/ctrlp.vim.git'
 Plug 'git@github.com:Valloric/YouCompleteMe.git'
 Plug 'mbbill/undotree'
+Plug 'francoiscabrol/ranger.vim'
+Plug 'preservim/nerdtree'
 
 call plug#end()
 
@@ -58,6 +64,14 @@ let g:loaded_matchparen=1
 
 let g:ctrlp_use_caching=0
 
+"let g:ranger_replace_netrw = 1
+"let g:ranger_map_keys = 0
+map <C-f> :Ranger<CR>
+nmap <F3> :set hls! <CR>
+
+map <C-n> :NERDTreeToggle<CR>
+nnoremap <leader>a :let &winwidth = &columns * 8 / 10<CR>
+nnoremap <leader>z :let &winwidth = &columns * 5 / 10<CR>
 nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
 nnoremap <leader>k :wincmd k<CR>
@@ -70,6 +84,13 @@ nnoremap <silent> <leader>- :vertical resize -5<CR>
 
 nnoremap <silent> <leader>gd :YcmCompleter GoTo<CR>
 nnoremap <silent> <leader>gf :YcmCompleter FixIt<CR>
+
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
+inoremap <C-j> <esc>:m .+1<CR>==
+inoremap <C-k> <esc>:m .-2<CR>==
+nnoremap <leader>j :m .+1<CR>==
+nnoremap <leader>k :m .-2<CR>==
 
 if has("autocmd")
   au VimEnter,InsertLeave * silent execute '!echo -ne "\e[2 q"' | redraw!
