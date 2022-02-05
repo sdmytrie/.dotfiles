@@ -5,8 +5,9 @@
 URxvt*scrollBar:	    false
 URxvt*letterSpace:  	-1
 URxvt.internalBorder: 10
-!URxvt*Font:		        xft:DejaVu Sans:regular:size 14:antialias=true
-urxvt*font: xft:Ubuntu Mono:style=Regular:pixelsize=17
+!URxvt*Font:		        xft:DejaVu Sans:regular:size 12:antialias=true
+!urxvt*font: xft:Ubuntu Mono:style=Regular:pixelsize=17
+urxvt*font: xft:UbuntuMono Nerd Font Mono:size=13
 !urxvt*font: xft:DejaVu Sans Mono:size=12
 !URxvt*boldFont:		    xft:System San Francisco:bold:size=11
 URxvt*cursorBlink:    false
@@ -28,7 +29,7 @@ Xft.hintstyle:		  hintslight
 ! ============
 !    Perl
 ! ============
-URxvt.perl-ext-common: default,clipboard,resize-font,url-select,keyboard-select,tabbed
+URxvt.perl-ext-common: default,clipboard,resize-font,url-select,keyboard-select
 URxvt.keysym.M-u: perl:url-select:select_next
 URxvt.url-select.launcher: /usr/bin/xdg-open
 URxvt.url-select.underline: true

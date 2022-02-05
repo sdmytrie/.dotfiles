@@ -26,6 +26,10 @@ set encoding=utf-8
 set splitbelow splitright
 set visualbell
 set belloff=all
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
@@ -45,6 +49,7 @@ Plug 'git@github.com:Valloric/YouCompleteMe.git'
 Plug 'mbbill/undotree'
 Plug 'francoiscabrol/ranger.vim'
 Plug 'preservim/nerdtree'
+Plug 'vim-syntastic/syntastic'
 
 call plug#end()
 
@@ -63,6 +68,14 @@ let g:netrw_winsize=25
 let g:loaded_matchparen=1
 
 let g:ctrlp_use_caching=0
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_python_checkers = ['flake8']
+let g:syntastic_javascript_checkers=['eslint']
+let g:syntastic_javascript_eslint_exe='$(npm bin)/eslint'
 
 "let g:ranger_replace_netrw = 1
 "let g:ranger_map_keys = 0
@@ -87,8 +100,8 @@ nnoremap <silent> <leader>gf :YcmCompleter FixIt<CR>
 
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
-inoremap <C-j> <esc>:m .+1<CR>==
-inoremap <C-k> <esc>:m .-2<CR>==
+"inoremap <C-j> <esc>:m .+1<CR>==
+"inoremap <C-k> <esc>:m .-2<CR>==
 nnoremap <leader>j :m .+1<CR>==
 nnoremap <leader>k :m .-2<CR>==
 
