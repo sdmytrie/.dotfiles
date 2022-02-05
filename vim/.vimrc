@@ -26,6 +26,7 @@ set encoding=utf-8
 set splitbelow splitright
 set visualbell
 set belloff=all
+
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
@@ -44,12 +45,16 @@ Plug 'vim-airline/vim-airline'
 Plug 'leafgarland/typescript-vim'
 Plug 'vim-utils/vim-man'
 Plug 'lyuts/vim-rtags'
-Plug 'git@github.com:kien/ctrlp.vim.git'
-Plug 'git@github.com:Valloric/YouCompleteMe.git'
+Plug 'ctrlpvim/ctrlp.vim'
+"Plug 'git@github.com:Valloric/YouCompleteMe.git'
+Plug 'ycm-core/YouCompleteMe'
 Plug 'mbbill/undotree'
 Plug 'francoiscabrol/ranger.vim'
 Plug 'preservim/nerdtree'
 Plug 'vim-syntastic/syntastic'
+Plug 'bling/vim-bufferline'
+"Plug 'mhinz/vim-signify'
+
 
 call plug#end()
 
@@ -70,12 +75,14 @@ let g:loaded_matchparen=1
 let g:ctrlp_use_caching=0
 
 let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
+let g:syntastic_auto_loc_list = 0
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_python_checkers = ['flake8']
 let g:syntastic_javascript_checkers=['eslint']
 let g:syntastic_javascript_eslint_exe='$(npm bin)/eslint'
+
+let g:bufferline_echo = 0
 
 "let g:ranger_replace_netrw = 1
 "let g:ranger_map_keys = 0
@@ -97,6 +104,8 @@ nnoremap <silent> <leader>- :vertical resize -5<CR>
 
 nnoremap <silent> <leader>gd :YcmCompleter GoTo<CR>
 nnoremap <silent> <leader>gf :YcmCompleter FixIt<CR>
+"nnoremap <leader>gb :ls<CR>:b
+nnoremap <F2> :ls<CR>:b
 
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
