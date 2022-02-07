@@ -103,6 +103,7 @@ nnoremap <silent> <leader>+ :vertical resize +5<CR>
 nnoremap <silent> <leader>- :vertical resize -5<CR>
 
 nnoremap <silent> <leader>gd :YcmCompleter GoTo<CR>
+nnoremap <silent> <leader>gr :YcmCompleter GoToReferences<CR>
 nnoremap <silent> <leader>gf :YcmCompleter FixIt<CR>
 "nnoremap <leader>gb :ls<CR>:b
 nnoremap <F2> :ls<CR>:b
