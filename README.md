@@ -21,6 +21,8 @@ xprop --> get class
 lxappearance --> gtk3   
 
 infinality --> displays better font
+
+on the web, search moka for icons
    
 ## ZSH  
 
