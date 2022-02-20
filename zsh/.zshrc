@@ -120,7 +120,7 @@ export NVM_DIR="$HOME/.nvm"
 EDITOR=vim
 VISUAL=vim
 #xset r rate 300 50
-mountpoint -q /home/serge/nas01/Data/ || /home/serge/Utils/mountNas01.sh
+#mountpoint -q /home/serge/nas01/Data/ || /home/serge/Utils/mountNas01.sh
 
 
 # Aliases for coding
@@ -131,3 +131,4 @@ PATH=$PATH:~/.local/bin:.
 
 bindkey -v
 export VI_MODE_SET_CURSOR=true
+export BW_SESSION="upJChKacccWRZU9T8V8gPI3TMkMlDwb/BnkRkTjBP7OOQKGxKk9C2WDqS4cjqLVR4cHmQuppmjizsPgC7tzHqA=="
