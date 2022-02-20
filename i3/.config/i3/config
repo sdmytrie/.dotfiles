@@ -156,6 +156,7 @@ bindsym $mod+mod2+KP_0 workspace number $ws10
 #assign [class="URxvt"] $ws1
 assign [class="Google-chrome"] $ws2
 #assign [class="Code"] $ws3
+assign [class="Spotify"] $ws3
 assign [class="Evolution"] $ws4
 assign [class="Spotify"] $ws10
 
@@ -261,7 +262,8 @@ exec --no-startup-id dunst -config ~/.config/i3/dunst
 exec_always xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-1 --off
 #exec_always xrandr --output eDP-1 --primary --mode 1600x900 --pos 0x0 --rotate normal --output HDMI-1 --off
 exec --no-startup-id gnome-settings-daemon
-exec --no-startup-id compton -f
+#exec --no-startup-id compton -f
+exec --no-startup-id picom -f
 exec_always kdeconnect-indicator
 exec_always blueman-applet
 exec_always --no-startup-id numlockx on
@@ -274,7 +276,7 @@ bindsym $mod+i exec "urxvt -e ~/.dotfiles/cht.sh2"
 #bindsym $mod+plus  gaps outer current plus 5
 #bindsym $mod+minus gaps outer current minus 5
 for_window [class=".*"] border pixel 1 #*
-gaps inner 4
+gaps inner 10 
 gaps outer 4
 #gaps horizontal 2
 

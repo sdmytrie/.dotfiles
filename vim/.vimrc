@@ -56,6 +56,8 @@ Plug 'bling/vim-bufferline'
 "Plug 'mhinz/vim-signify'
 Plug 'ryanoasis/vim-devicons'
 Plug 'chrisbra/vim-commentary'
+Plug 'tpope/vim-surround'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 
 call plug#end()

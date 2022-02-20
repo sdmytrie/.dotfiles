@@ -4,7 +4,7 @@
 
 URxvt*scrollBar:	    false
 URxvt*letterSpace:  	-1
-URxvt.internalBorder: 10
+URxvt.internalBorder: 4
 !URxvt*Font:		        xft:DejaVu Sans:regular:size 12:antialias=true
 !urxvt*font: xft:Ubuntu Mono:style=Regular:pixelsize=17
 urxvt*font: xft:UbuntuMono Nerd Font Mono:size=14
