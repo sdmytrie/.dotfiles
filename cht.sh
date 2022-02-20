@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-languages=`echo "typescript nodejs python" | tr ' ' '\n'`
-core_utils=`echo "tmux xargs find sed awk" | tr ' ' '\n'`
+languages=`echo "angular javascript nodejs python typescript" | tr ' ' '\n'`
+core_utils=`echo "awk find ng sed tmux xargs" | tr ' ' '\n'`
 
 selected=`printf "$languages\n$core_utils" | fzf`
 read -p "query: " query

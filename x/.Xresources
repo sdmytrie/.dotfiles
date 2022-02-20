@@ -48,28 +48,56 @@ URxvt.keysym.M-s:		perl:keyboard-select:search
 ! ============
 !   Couleurs
 ! ============
-*secondary:  #444B6A
-*active:     #C0CAF5
-!
-*.foreground:   #C0CAF5
-*.background:   #1A1B26
-*.cursorColor:  #C0CAF5
-* fading: 20
-*fadeColor: #5A638C
-!
-*.color0:                #6878A6
-*.color8:                #5d6791
-*.color1:                #DB4B4B
-*.color9:                #A6333F
-*.color2:                #9ECE6A
-*.color10:               #9ECE6A
-*.color3:                #E0AF68
-*.color11:               #BBA461
-*.color4:                #7AA2F7
-*.color12:               #6D91DE
-*.color5:                #BB9AF7
-*.color13:               #9D7CD8
-*.color6:                #41A6B5
-*.color14:               #449DAB
-*.color7:                #C0CAF5
-*.color15:               #9AA5CE
+!*secondary:  #444B6A
+!*active:     #C0CAF5
+!!
+!*.foreground:   #C0CAF5
+!*.background:   #1A1B26
+!*.cursorColor:  #C0CAF5
+!* fading: 20
+!*fadeColor: #5A638C
+!!
+!*.color0:                #6878A6
+!*.color8:                #5d6791
+!*.color1:                #DB4B4B
+!*.color9:                #A6333F
+!*.color2:                #9ECE6A
+!*.color10:               #9ECE6A
+!*.color3:                #E0AF68
+!*.color11:               #BBA461
+!*.color4:                #7AA2F7
+!*.color12:               #6D91DE
+!*.color5:                #BB9AF7
+!*.color13:               #9D7CD8
+!*.color6:                #41A6B5
+!*.color14:               #449DAB
+!*.color7:                #C0CAF5
+!*.color15:               #9AA5CE
+! hard contrast: *background: #1d2021
+*background: #282828
+! soft contrast: *background: #32302f
+*foreground: #ebdbb2
+! Black + DarkGrey
+*color0:  #282828
+*color8:  #928374
+! DarkRed + Red
+*color1:  #cc241d
+*color9:  #fb4934
+! DarkGreen + Green
+*color2:  #98971a
+*color10: #b8bb26
+! DarkYellow + Yellow
+*color3:  #d79921
+*color11: #fabd2f
+! DarkBlue + Blue
+*color4:  #458588
+*color12: #83a598
+! DarkMagenta + Magenta
+*color5:  #b16286
+*color13: #d3869b
+! DarkCyan + Cyan
+*color6:  #689d6a
+*color14: #8ec07c
+! LightGrey + White
+*color7:  #a89984
+*color15: #ebdbb2

@@ -22,7 +22,7 @@ set wildmenu
 set hlsearch
 set scrolloff=4
 set listchars=tab:→\ ,eol:↲
-set encoding=utf-8
+set encoding=UTF-8
 set splitbelow splitright
 set visualbell
 set belloff=all
@@ -54,6 +54,8 @@ Plug 'preservim/nerdtree'
 Plug 'vim-syntastic/syntastic'
 Plug 'bling/vim-bufferline'
 "Plug 'mhinz/vim-signify'
+Plug 'ryanoasis/vim-devicons'
+Plug 'chrisbra/vim-commentary'
 
 
 call plug#end()
@@ -81,6 +83,8 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_python_checkers = ['flake8']
 let g:syntastic_javascript_checkers=['eslint']
 let g:syntastic_javascript_eslint_exe='$(npm bin)/eslint'
+
+let g:ycm_echo_current_diagnostic = 1
 
 let g:bufferline_echo = 0
 
@@ -114,6 +118,8 @@ vnoremap K :m '<-2<CR>gv=gv
 "inoremap <C-k> <esc>:m .-2<CR>==
 nnoremap <leader>j :m .+1<CR>==
 nnoremap <leader>k :m .-2<CR>==
+
+nnoremap <leader>cc :Commentary<CR>
 
 if has("autocmd")
   au VimEnter,InsertLeave * silent execute '!echo -ne "\e[2 q"' | redraw!
