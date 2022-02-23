@@ -1,0 +1,42 @@
+Host vps
+	HostName 194.163.180.45
+	User sdmytrie
+
+Host srv01
+	HostName 192.168.1.41
+	User serge
+
+Host ffhm
+	HostName 151.80.40.50
+	User debian
+
+Host jeedom
+	HostName 192.168.1.160
+	User pi
+
+Host pi2
+	HostName 192.168.1.150
+	User pi
+
+Host pirouter
+	HostName 192.168.1.170
+	User pi
+
+Host pi0-1
+	HostName 192.168.1.161
+	User pi
+
+Host pi0-2
+	HostName 192.168.1.162
+	User pi
+
+Host ks-10
+	HostName 91.121.76.115
+	User debian
+
+Host do01
+	HostName 161.35.150.240
+	User serge
+
+Host vps
+	HostName vps

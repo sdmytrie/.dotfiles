@@ -127,8 +127,9 @@ VISUAL=vim
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
-PATH=$PATH:~/.local/bin:.
+PATH=$PATH:~/.local/bin:~/.local/bin/statusbar:.
 
 bindkey -v
 export VI_MODE_SET_CURSOR=true
 export BW_SESSION="upJChKacccWRZU9T8V8gPI3TMkMlDwb/BnkRkTjBP7OOQKGxKk9C2WDqS4cjqLVR4cHmQuppmjizsPgC7tzHqA=="
+export BROWSER="google-chrome"

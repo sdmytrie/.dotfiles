@@ -3,6 +3,7 @@
 xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-1 --off
 xrdb -merge ~/.Xresources
 conky -c ~/.config/conky/conkyrc | while true; read line; do xsetroot -name "$line"; done &
+#i3blocks -c /home/serge/.config/i3/i3blocks.conf | while true; read line; do xsetroot -name "$line"; done &
 picom -f &
 feh --bg-scale /home/serge/Images/287831.jpg
 dunst -config ~/.config/i3/dunst

@@ -157,7 +157,6 @@ bindsym $mod+mod2+KP_0 workspace number $ws10
 #assign [class="URxvt"] $ws1
 assign [class="Google-chrome"] $ws2
 #assign [class="Code"] $ws3
-assign [class="Spotify"] $ws3
 assign [class="Evolution"] $ws4
 
 # move focused container to workspace
@@ -211,6 +210,7 @@ set $inactive-bg-color   #2f343f
 set $text-color          #f3f4f5
 set $inactive-text-color #676E7D
 set $urgent-bg-color     #E53935
+set $preview-colour      #2f343f
 
 # window colors
 #                       border              background         text                 indicator
@@ -262,12 +262,9 @@ bindsym XF86MonBrightnessUp exec light -A 1
 bindsym XF86MonBrightnessDown exec light -U 1
 
 
-for_window [class="^.*"] border pixel 2
-
 exec urxvt #-e tmux #-s 'Misc'
 #exec urxvt -e ranger
 exec evolution
-exec spotify
 exec google-chrome
 exec_always feh --bg-scale /home/serge/Images/287831.jpg
 exec --no-startup-id dunst -config ~/.config/i3/dunst
@@ -290,13 +287,29 @@ bindsym $mod+i exec "urxvt -e ~/.dotfiles/cht.sh2"
 #bindsym $mod+plus  gaps outer current plus 5
 #bindsym $mod+minus gaps outer current minus 5
 for_window [class=".*"] border pixel 0 #*
-gaps inner 10 
-gaps outer 2
+gaps inner 20 
+gaps outer 4
 #gaps horizontal current plus 40
-#smart_gaps on
-#gaps horizontal 2
+smart_gaps on
+gaps horizontal 2
+
+for_window [window_role="pop-up"]                       floating enable
+for_window [window_role="bubble"]                       floating enable
+for_window [window_role="task_dialog"]                  floating enable
+for_window [window_role="Preferences"]                  floating enable
+for_window [window_type="dialog"]                       floating enable
+for_window [window_type="menu"]                         floating enable
+
+set $mode_gaps Toggle gaps: (1) on (2) off
+bindsym $mod+F1 mode "$mode_gaps"
+mode "$mode_gaps" {
+    bindsym 1 mode "default", gaps inner all set 20, gaps outer all set 4
+    bindsym 2 mode "default", gaps inner all set 1, gaps outer all set 1
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
 
 ################# i3-radius #######################
 smart_borders on
 smart_borders no_gaps
-border_radius 10 
+#border_radius 10 
