@@ -58,6 +58,8 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'chrisbra/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 
 call plug#end()
