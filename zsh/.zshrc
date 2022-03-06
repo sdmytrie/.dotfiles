@@ -80,7 +80,20 @@ ZSH_THEME="intheloop"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git history web-search bgnotify tmux vi-mode fzf)
+plugins=(
+    bgnotify 
+    colored-man-pages
+    copybuffer
+    copypath
+    fzf 
+    git
+    history 
+    pyenv
+    sudo 
+    tmux 
+    vi-mode 
+    web-search 
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -129,22 +142,28 @@ PATH=$PATH:~/.local/bin:.
 
 bindkey -v
 export VI_MODE_SET_CURSOR=true
-export BW_SESSION="upJChKacccWRZU9T8V8gPI3TMkMlDwb/BnkRkTjBP7OOQKGxKk9C2WDqS4cjqLVR4cHmQuppmjizsPgC7tzHqA=="
-export BROWSER="google-chrome"
+export BW_SESSION="kZ6Yz7BVwU3o+fq/K3SgGVt6yvHqVnUpouSOFDThhFdlsBytD5UFWchqpGmKlFO8hogIK2MeICRIe7kS0+eJHA=="
+export BROWSER="/usr/bin/google-chrome-stable"
 alias vi=vim
 alias bc=bc -l -q
 
 # fzf
 . /usr/share/fzf/key-bindings.zsh
 . /usr/share/fzf/completion.zsh
-export FZF_DEFAULT_COMMAND='fd --type f --color=never --hidden'
+export FZF_DEFAULT_COMMAND='fd --type f --color=never --hidden --exclude .git'
 #export FZF_DEFAULT_OPTS="-m --no-height --color=bg+:#343d46,gutter:-1,pointer:#ff3c3c,info:#0dbc79,hl:#0dbc79,hl+:#23d18b --reverse --preview 'bat --color=always --line-range :50 {}'"
 export FZF_DEFAULT_OPTS="-m --no-height --color=bg+:#343d46,gutter:-1,pointer:#ff3c3c,info:#0dbc79,hl:#0dbc79,hl+:#23d18b"
 
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_CTRL_T_OPTS="--preview 'bat --color=always --line-range :50 {}'"
 
-#export FZF_ALT_C_COMMAND="fd --type d . --color=never --hidden"
-#export FZF_ALT_C_OPTS="--preview 'tree -C {} | head -50'"
+export FZF_ALT_C_COMMAND="fd --type d . --color=never --hidden"
+export FZF_ALT_C_OPTS="--preview 'tree -C {} | head -50'"
 export FZF_TMUX=1
 # alias fzf=fzf --reverse --preview 'bat --color=always --line-range :50 {}'
+#alias lsd="lsd --config-file ~/.config/lsd/config.yaml"
+alias ls="lsd"
+curl "fr.wttr.in/domfessel?p0"
+
+source ~/.local/scripts/fzf_git.sh
+

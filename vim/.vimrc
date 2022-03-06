@@ -45,7 +45,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'leafgarland/typescript-vim'
 Plug 'vim-utils/vim-man'
 Plug 'lyuts/vim-rtags'
-Plug 'ctrlpvim/ctrlp.vim'
+"Plug 'ctrlpvim/ctrlp.vim'
 "Plug 'git@github.com:Valloric/YouCompleteMe.git'
 Plug 'ycm-core/YouCompleteMe'
 Plug 'mbbill/undotree'
@@ -58,7 +58,6 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'chrisbra/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
 
@@ -98,6 +97,7 @@ map <C-f> :Ranger<CR>
 nmap <F3> :set hls! <CR>
 
 map <C-n> :NERDTreeToggle<CR>
+map <C-p> :Files<CR>
 nnoremap <leader>a :let &winwidth = &columns * 8 / 10<CR>
 nnoremap <leader>z :let &winwidth = &columns * 5 / 10<CR>
 nnoremap <leader>h :wincmd h<CR>
@@ -114,7 +114,8 @@ nnoremap <silent> <leader>gd :YcmCompleter GoTo<CR>
 nnoremap <silent> <leader>gr :YcmCompleter GoToReferences<CR>
 nnoremap <silent> <leader>gf :YcmCompleter FixIt<CR>
 "nnoremap <leader>gb :ls<CR>:b
-nnoremap <F2> :ls<CR>:b
+"nnoremap <F2> :ls<CR>:b
+nnoremap <F2> :Buffers<CR>
 
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
