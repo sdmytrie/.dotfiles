@@ -21,7 +21,7 @@ set wildignore+=**/__pycache__/**
 set wildmenu
 set hlsearch
 set scrolloff=4
-set listchars=tab:→\ ,eol:↲
+set listchars=tab:→\ ,eol:↲,space:.
 set encoding=UTF-8
 set splitbelow splitright
 set visualbell
@@ -37,6 +37,7 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'tpope/vim-sensible'
 Plug 'itchyny/lightline.vim'
 Plug 'morhetz/gruvbox'
 Plug 'jremmen/vim-ripgrep'
@@ -116,6 +117,7 @@ nnoremap <silent> <leader>gf :YcmCompleter FixIt<CR>
 "nnoremap <leader>gb :ls<CR>:b
 "nnoremap <F2> :ls<CR>:b
 nnoremap <F2> :Buffers<CR>
+nnoremap <F3> :set list!<CR>
 
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
