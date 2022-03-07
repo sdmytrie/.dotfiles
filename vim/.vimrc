@@ -60,12 +60,15 @@ Plug 'chrisbra/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'junegunn/fzf.vim'
+Plug 'mhinz/vim-startify'
 
 
 call plug#end()
 
 colorscheme gruvbox
+"colorscheme elflord
 set background=dark
+set makeprg=flake8
 
 if executable('rg')
     let g:rg_derive_root='true'
@@ -117,7 +120,7 @@ nnoremap <silent> <leader>gf :YcmCompleter FixIt<CR>
 "nnoremap <leader>gb :ls<CR>:b
 "nnoremap <F2> :ls<CR>:b
 nnoremap <F2> :Buffers<CR>
-nnoremap <F3> :set list!<CR>
+nnoremap <F4> :set list!<CR>
 
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
