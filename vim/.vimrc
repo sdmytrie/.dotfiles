@@ -64,6 +64,8 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'junegunn/fzf.vim'
 Plug 'mhinz/vim-startify'
 Plug 'mattn/emmet-vim'
+Plug 'Quramy/vim-js-pretty-template'
+Plug 'pangloss/vim-javascript'
 
 
 call plug#end()
@@ -102,7 +104,15 @@ let g:airline_powerline_fonts=1
 let g:airline_left_sep = ''
 let g:airline_right_sep = ''
 
-let g:user_emmet_mode='n'
+let g:typescript_compiler_binary = 'tsc'
+let g:typescript_compiler_options = ''
+autocmd QuickFixCmdPost [^l]* nested cwindow
+autocmd QuickFixCmdPost    l* nested lwindow
+
+autocmd FileType typescript JsPreTmpl html
+autocmd FileType typescript syn clear foldBraces
+
+" let g:user_emmet_mode='n'
 
 "let g:ranger_replace_netrw = 1
 "let g:ranger_map_keys = 0
