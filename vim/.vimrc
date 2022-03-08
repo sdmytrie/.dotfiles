@@ -31,6 +31,8 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
+set showtabline=2
+
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
@@ -38,7 +40,7 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 call plug#begin('~/.vim/plugged')
 
 Plug 'tpope/vim-sensible'
-Plug 'itchyny/lightline.vim'
+" Plug 'itchyny/lightline.vim'
 Plug 'morhetz/gruvbox'
 Plug 'jremmen/vim-ripgrep'
 Plug 'tpope/vim-fugitive'
@@ -53,7 +55,7 @@ Plug 'mbbill/undotree'
 Plug 'francoiscabrol/ranger.vim'
 Plug 'preservim/nerdtree'
 Plug 'vim-syntastic/syntastic'
-Plug 'bling/vim-bufferline'
+"Plug 'bling/vim-bufferline'
 "Plug 'mhinz/vim-signify'
 Plug 'ryanoasis/vim-devicons'
 Plug 'chrisbra/vim-commentary'
@@ -61,6 +63,7 @@ Plug 'tpope/vim-surround'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'junegunn/fzf.vim'
 Plug 'mhinz/vim-startify'
+Plug 'mattn/emmet-vim'
 
 
 call plug#end()
@@ -94,6 +97,12 @@ let g:syntastic_javascript_eslint_exe='$(npm bin)/eslint'
 let g:ycm_echo_current_diagnostic = 1
 
 let g:bufferline_echo = 0
+
+let g:airline_powerline_fonts=1
+let g:airline_left_sep = ''
+let g:airline_right_sep = ''
+
+let g:user_emmet_mode='n'
 
 "let g:ranger_replace_netrw = 1
 "let g:ranger_map_keys = 0
