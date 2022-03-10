@@ -31,6 +31,7 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
+set noshowmode
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
@@ -44,14 +45,14 @@ set shortmess+=c
 call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'ellisonleao/gruvbox.nvim'
-"Plug 'itchyny/lightline.vim'
+Plug 'itchyny/lightline.vim'
 Plug 'jremmen/vim-ripgrep'
 " Plug 'junegunn/fzf.vim'
 " Plug 'leafgarland/typescript-vim'
 Plug 'mbbill/undotree'
 Plug 'preservim/nerdtree'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline'
 Plug 'ryanoasis/vim-devicons'
 Plug 'chrisbra/vim-commentary'
 Plug 'tpope/vim-surround'
@@ -65,6 +66,7 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'mhinz/vim-startify'
 Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
+Plug 'tpope/vim-fugitive'
 Plug 'lewis6991/gitsigns.nvim'
 " Autocompletion
 Plug 'hrsh7th/nvim-cmp'
