@@ -68,6 +68,7 @@ Plug 'mhinz/vim-startify'
 Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
 Plug 'tpope/vim-fugitive'
 Plug 'lewis6991/gitsigns.nvim'
+Plug 'preservim/tagbar'
 " Autocompletion
 Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'
@@ -95,6 +96,7 @@ set completeopt=menu,menuone,noselect
 map <C-f> :Ranger<CR>
 nmap <F3> :set hls! <CR>
 nnoremap <leader>u :UndotreeShow<CR>
+nmap <F8> :TagbarToggle<CR>
 
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
@@ -105,3 +107,4 @@ inoremap <C-k> <esc>:m .-2<CR>==
 
 nnoremap <leader>/ :Commentary<CR>
 
+autocmd BufWritePre <buffer> <cmd>EslintFixAll<CR>

@@ -2,7 +2,7 @@ local nvim_lsp = require('lspconfig')
 local cmp = require('cmp')
 local lspkind = require('lspkind')
 local luasnip = require('luasnip')
-local servers = { 'tsserver', 'pyright', 'html', 'cssls', 'bashls' }
+local servers = { 'tsserver', 'eslint', 'emmet_ls', 'pyright', 'html', 'cssls', 'bashls' }
 
 vim.o.completeopt = 'menuone,noselect'
 
