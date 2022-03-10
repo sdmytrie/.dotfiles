@@ -39,6 +39,7 @@ set hidden
 set cmdheight=2
 set updatetime=300
 set shortmess+=c
+" set signcolumn=number
 
 call plug#begin('~/.local/share/nvim/plugged')
 
@@ -46,7 +47,7 @@ Plug 'ellisonleao/gruvbox.nvim'
 "Plug 'itchyny/lightline.vim'
 Plug 'jremmen/vim-ripgrep'
 " Plug 'junegunn/fzf.vim'
-Plug 'leafgarland/typescript-vim'
+" Plug 'leafgarland/typescript-vim'
 Plug 'mbbill/undotree'
 Plug 'preservim/nerdtree'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
@@ -59,11 +60,21 @@ Plug 'francoiscabrol/ranger.vim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 " Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'ray-x/lsp_signature.nvim'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" Plug 'neovim/nvim-lspconfig'
+" Plug 'ray-x/lsp_signature.nvim'
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neovim/nvim-lspconfig'
+Plug 'mhinz/vim-startify'
+Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
+Plug 'lewis6991/gitsigns.nvim'
+" Autocompletion
+Plug 'hrsh7th/nvim-cmp'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'L3MON4D3/LuaSnip'
+Plug 'saadparwaiz1/cmp_luasnip'
+Plug 'onsails/lspkind-nvim'
 
 call plug#end()
+lua require('serge')
 
 let g:airline_powerline_fonts=1
 let g:airline_left_sep = ''
@@ -91,3 +102,4 @@ inoremap <C-j> <esc>:m .+1<CR>==
 inoremap <C-k> <esc>:m .-2<CR>==
 
 nnoremap <leader>/ :Commentary<CR>
+

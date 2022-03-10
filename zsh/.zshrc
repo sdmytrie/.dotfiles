@@ -130,8 +130,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-EDITOR=vim
-VISUAL=vim
+EDITOR=nvim
+VISUAL=nvim
 
 
 # Aliases for coding
@@ -144,7 +144,7 @@ bindkey -v
 export VI_MODE_SET_CURSOR=true
 export BW_SESSION="kZ6Yz7BVwU3o+fq/K3SgGVt6yvHqVnUpouSOFDThhFdlsBytD5UFWchqpGmKlFO8hogIK2MeICRIe7kS0+eJHA=="
 export BROWSER="/usr/bin/google-chrome-stable"
-alias vi=vim
+alias vi=nvim
 alias bc=bc -l -q
 
 # fzf

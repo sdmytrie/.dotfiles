@@ -194,7 +194,7 @@ vnoremap K :m '<-2<CR>gv=gv
 nnoremap <leader>j :m .+1<CR>==
 nnoremap <leader>k :m .-2<CR>==
 
-nnoremap <leader>cc :Commentary<CR>
+nnoremap <leader>/ :Commentary<CR>
 
 if has("autocmd")
   au VimEnter,InsertLeave * silent execute '!echo -ne "\e[2 q"' | redraw!
