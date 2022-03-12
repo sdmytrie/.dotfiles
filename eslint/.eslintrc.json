@@ -1,0 +1,23 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "globals": {
+    "BigInt": true,
+    "Metacom": true
+  },
+  "rules": {
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "camelcase": ["error"],
+    "eqeqeq": ["error", "always"],
+    "strict": ["error", "global"]
+  }
+}
