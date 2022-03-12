@@ -19,5 +19,8 @@
     "camelcase": ["error"],
     "eqeqeq": ["error", "always"],
     "strict": ["error", "global"]
+  },
+  "parserOptions": {
+    "sourceType": "module"
   }
 }
