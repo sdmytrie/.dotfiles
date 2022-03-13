@@ -17,6 +17,7 @@ local config = {
 		{
 			"vimwiki/vimwiki",
 			config = function()
+		    local set = vim.opt
 				vim.g["vimwiki_list"] = {
 					{
 						template_path = vim.fn.stdpath("data") .. "/site/pack/packer/start/vimwiki/autoload/",
@@ -25,6 +26,9 @@ local config = {
 					},
 				}
 				vim.g["vimwiki_global_ext"] = 0
+        vim.g["imwiki_custom_wiki2html"] = "vimwiki_markdown"
+        vim.g["vimwiki_automatic_nested_syntaxes"] = 1
+        set.syntax = "markdown"
 			end,
 		},
 		{ "mhinz/vim-startify" },
