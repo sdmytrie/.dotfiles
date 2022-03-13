@@ -134,18 +134,24 @@ EDITOR=nvim
 VISUAL=nvim
 
 
-# Aliases for coding
+# Aliases
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
+# alias fzf=fzf --reverse --preview 'bat --color=always --line-range :50 {}'
+#alias lsd="lsd --config-file ~/.config/lsd/config.yaml"
+alias ls="lsd"
+alias vi=nvim
+alias bc=bc -l -q
+alias zshrc="source ~/.zshrc"
+
+
 PATH=$PATH:~/.local/bin:.
 
 bindkey -v
 export VI_MODE_SET_CURSOR=true
 export BW_SESSION="kZ6Yz7BVwU3o+fq/K3SgGVt6yvHqVnUpouSOFDThhFdlsBytD5UFWchqpGmKlFO8hogIK2MeICRIe7kS0+eJHA=="
 export BROWSER="/usr/bin/google-chrome-stable"
-alias vi=nvim
-alias bc=bc -l -q
 
 # fzf
 . /usr/share/fzf/key-bindings.zsh
@@ -160,10 +166,10 @@ export FZF_CTRL_T_OPTS="--preview 'bat --color=always --line-range :50 {}'"
 export FZF_ALT_C_COMMAND="fd --type d . --color=never --hidden --exclude .git"
 export FZF_ALT_C_OPTS="--preview 'tree -C {} | head -50'"
 export FZF_TMUX=1
-# alias fzf=fzf --reverse --preview 'bat --color=always --line-range :50 {}'
-#alias lsd="lsd --config-file ~/.config/lsd/config.yaml"
-alias ls="lsd"
+
+# What's the weather like ?
 curl "fr.wttr.in/domfessel?p0"
 
+# Personal scripts
 source ~/.local/scripts/fzf_git.sh
 
