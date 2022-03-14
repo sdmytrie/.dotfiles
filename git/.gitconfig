@@ -1,0 +1,5 @@
+[user]
+	email = serge@dmytrienko.fr
+	name = Serge DMYTRIENKO
+[core]
+	pager = less -iXFR
