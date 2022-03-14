@@ -1,3 +1,0 @@
-[2022-01-19 01:13:52.503] [renderer1] [error] [Extension Host] (node:3482700) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-(Use `code --trace-deprecation ...` to show where the warning was created)
-[2022-01-19 01:13:55.080] [renderer1] [error] ENOENT: no such file or directory, open '/home/serge/.config/Code/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/serge/.config/Code/User/globalStorage/vscodevim.vim/.registers'

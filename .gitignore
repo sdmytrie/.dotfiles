@@ -1,2 +1,4 @@
 undodir/
 plugged/
+.git/
+__pycache__/
