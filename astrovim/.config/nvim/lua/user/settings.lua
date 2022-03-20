@@ -77,9 +77,11 @@ local config = {
     local set = vim.opt
     -- Set options
     set.relativenumber = true
+    set.listchars = { tab = "→ ", eol = "↲", space = "." }
 
     -- Set key bindings
     map("n", "<C-s>", ":w!<CR>", opts)
+    map("n", "<F4>", ":set list!<CR>", opts)
 
     -- Set autocommands
     vim.cmd [[
