@@ -1,4 +1,4 @@
-local config = {
+      end,local config = {
 
   -- Set colorscheme
   colorscheme = "onedark",
