@@ -1,4 +1,4 @@
-      end,local config = {
+local config = {
 
   -- Set colorscheme
   colorscheme = "onedark",
@@ -31,6 +31,7 @@
         vim.g["vimwiki_automatic_nested_syntaxes"] = 1
       end,
     },
+    { "michal-h21/vimwiki-sync" },
     {
       "tools-life/taskwiki",
       config = function()
@@ -79,7 +80,6 @@
 
     -- Set key bindings
     map("n", "<C-s>", ":w!<CR>", opts)
-    map("n", "<F8>", "<cmd>TagbarToggle<CR>", opts)
 
     -- Set autocommands
     vim.cmd [[
