@@ -39,6 +39,7 @@ local config = {
       end,
     },
     { "mhinz/vim-startify" },
+    { "tpope/vim-fugitive" },
   },
 
   overrides = {
