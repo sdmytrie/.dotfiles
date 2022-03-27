@@ -80,6 +80,7 @@ ZSH_THEME="intheloop"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+# ZSH_TMUX_AUTOSTART='true'
 plugins=(
     bgnotify 
     colored-man-pages
@@ -144,6 +145,7 @@ alias ls="lsd"
 alias vi=nvim
 alias bc=bc -l -q
 alias zshrc="source ~/.zshrc"
+alias vps='ssh -t vps "tmux attach -d || tmux new"'
 
 
 PATH=$PATH:~/.local/bin:.
