@@ -20,11 +20,13 @@ function M.config()
     sources = {
       -- Set a formatter
       formatting.rufo,
+      formatting.markdownlint,
       formatting.prettier.with { extra_args = { "--no-semi", "--single-quote", "--jsx-single-quote" } },
       formatting.black.with { extra_args = { "--fast" } },
       formatting.stylua,
       -- Set a linter
       diagnostics.rubocop,
+      diagnostics.markdownlint,
       -- diagnostics.flake8,
       -- diagnostics.eslint,
     },
