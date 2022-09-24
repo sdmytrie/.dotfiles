@@ -158,7 +158,7 @@ export BROWSER="/usr/bin/google-chrome-stable"
 # fzf
 . /usr/share/fzf/key-bindings.zsh
 . /usr/share/fzf/completion.zsh
-export FZF_DEFAULT_COMMAND='fd --type f --color=never --hidden --exclude .git'
+export FZF_DEFAULT_COMMAND='fd --type f --color=never --hidden --exclude .git --exclude node_modules --exclude nas01 --search-path ~ --search-path /opt'
 #export FZF_DEFAULT_OPTS="-m --no-height --color=bg+:#343d46,gutter:-1,pointer:#ff3c3c,info:#0dbc79,hl:#0dbc79,hl+:#23d18b --reverse --preview 'bat --color=always --line-range :50 {}'"
 export FZF_DEFAULT_OPTS="-m --no-height --color=bg+:#343d46,gutter:-1,pointer:#ff3c3c,info:#0dbc79,hl:#0dbc79,hl+:#23d18b"
 
