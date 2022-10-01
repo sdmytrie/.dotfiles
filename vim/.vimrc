@@ -98,6 +98,7 @@ Plug 'lyuts/vim-rtags'
 "Plug 'git@github.com:Valloric/YouCompleteMe.git'
 "Plug 'ycm-core/YouCompleteMe'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'honza/vim-snippets'
 Plug 'mbbill/undotree'
 Plug 'francoiscabrol/ranger.vim'
 Plug 'preservim/nerdtree'

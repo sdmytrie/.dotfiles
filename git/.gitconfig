@@ -3,3 +3,5 @@
 	name = Serge DMYTRIENKO
 [core]
 	pager = less -iXFR
+[init]
+	defaultBranch = main
