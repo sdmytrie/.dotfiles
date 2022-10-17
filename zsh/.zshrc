@@ -175,3 +175,7 @@ curl "fr.wttr.in/domfessel?p0"
 # Personal scripts
 source ~/.local/scripts/fzf_git.sh
 
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)

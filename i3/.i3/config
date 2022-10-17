@@ -8,15 +8,16 @@ set $mod Mod4
 # workspace_layout tabbed <stacking|tabbed>
 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
-default_border pixel 3
+# default_border pixel 3
+default_border none
 default_floating_border normal
 
 # Hide borders
-hide_edge_borders none
+hide_edge_borders smart
 
 # change borders
 bindsym $mod+u border none
-bindsym $mod+y border pixel 1
+bindsym $mod+y border pixel 3
 bindsym $mod+n border normal
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -65,9 +66,9 @@ bindsym $mod+F2 exec google-chrome-stable
 bindsym $mod+F3 exec pcmanfm
 # bindsym $mod+F4 exec evolution
 bindsym $mod+F4 exec thunderbird
-# bindsym $mod+F3 exec ranger
 bindsym $mod+Shift+F3 exec pcmanfm_pkexec
 bindsym $mod+F5 exec terminal -e 'mocp'
+bindsym $mod+F6 exec urxvt -e ranger
 bindsym $mod+t exec --no-startup-id pkill picom
 bindsym $mod+Ctrl+t exec --no-startup-id picom -b
 bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
@@ -118,7 +119,7 @@ bindsym $mod+q split toggle
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
+# bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
@@ -330,7 +331,9 @@ set_from_resource $term_color14    color14
 set_from_resource $term_color15    color15
 
 #exec_always xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-1 --off
-exec_always xrandr --output eDP-1 --primary --mode 1600x900 --pos 0x0 --rotate normal --output HDMI-1 --off
+#exec_always xrandr --output eDP-1 --primary --mode 1600x900 --pos 0x0 --rotate normal --output HDMI-1 --off
+#exec_always xrandr --output eDP-1 --primary --mode 1600x900 --pos 0x0 --rotate normal --output HDMI-1 --auto --right-of eDP-1
+exec_always xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-1 --auto --right-of eDP-1
 
 # Start i3bar to display a workspace bar (plus the system information i3status if available)
 bar {
@@ -379,7 +382,7 @@ bindsym $mod+m bar mode toggle
 #############################
 
 # Set inner/outer gaps
-gaps inner 14
+gaps inner 8
 gaps outer -2
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
@@ -432,3 +435,18 @@ mode "$mode_gaps_outer" {
 }
 
 exec_always --no-startup-id numlockx on
+
+exec_always i3-layouts
+set $i3l autosplit to workspace $ws1
+set $i3l autosplit to workspace $ws2
+set $i3l autosplit to workspace $ws3
+set $i3l autosplit to workspace $ws4
+set $i3l autosplit to workspace $ws5
+set $i3l autosplit to workspace $ws6
+bindsym $mod+s exec i3l autosplit
+exec_always i3l autosplit
+bindsym $mod+Shift+n exec i3l none
+
+# exec --no-startup-id i3-msg exec-blocking 'workspace $ws3; exec urxvt; exec urxvt -e ranger'
+# exec --no-startup-id i3-msg exec-blocking 'workspace $ws4; exec thunderbird'
+# exec --no-startup-id i3-msg exec-blocking 'workspace $ws2; exec google-chrome-stable'
