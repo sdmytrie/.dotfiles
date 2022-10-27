@@ -22,7 +22,8 @@ bindsym $mod+n border normal
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font xft:URWGothic-Book 11
+# font xft:URWGothic-Book 11
+font xft:Droid Sans Mono 11
 
 # Use Mouse+$mod to drag floating windows
 floating_modifier $mod
@@ -37,8 +38,9 @@ bindsym $mod+Return exec urxvt
 bindsym $mod+Shift+q kill
 
 # start program launcher
-bindsym $mod+d exec --no-startup-id dmenu_recency
-bindsym $mod+Ctrl+d exec --no-startup-id rofi -show drun -run-shell-command '{terminal} -e zsh -ic "{cmd} && read"'
+# bindsym $mod+d exec --no-startup-id dmenu_recency
+bindsym $mod+d exec --no-startup-id rofi -show drun -run-shell-command '{terminal} -e zsh -ic "{cmd} && read"'
+#bindsym $mod+Tab exec --no-startup-id rofi -show window
 
 # launch categorized menu
 bindsym $mod+z exec --no-startup-id morc_menu
@@ -67,7 +69,8 @@ bindsym $mod+F3 exec pcmanfm
 # bindsym $mod+F4 exec evolution
 bindsym $mod+F4 exec thunderbird
 bindsym $mod+Shift+F3 exec pcmanfm_pkexec
-bindsym $mod+F5 exec terminal -e 'mocp'
+#bindsym $mod+F5 exec terminal -e 'mocp'
+bindsym $mod+F5 exec spotify
 bindsym $mod+F6 exec urxvt -e ranger
 bindsym $mod+t exec --no-startup-id pkill picom
 bindsym $mod+Ctrl+t exec --no-startup-id picom -b
@@ -136,11 +139,13 @@ bindsym $mod+Shift+s sticky toggle
 bindsym $mod+a focus parent
 
 # move the currently focused window to the scratchpad
-bindsym $mod+Shift+minus move scratchpad
+# bindsym $mod+Shift+minus move scratchpad
+bindsym $mod+Shift+Tab move scratchpad
 
 # Show the next scratchpad window or hide the focused scratchpad window.
 # If there are multiple scratchpad windows, this command cycles through them.
-bindsym $mod+minus scratchpad show
+# bindsym $mod+minus scratchpad show
+bindsym $mod+Tab scratchpad show
 
 #navigate workspaces next / previous
 bindsym $mod+Ctrl+Right workspace next
@@ -150,11 +155,11 @@ bindsym $mod+Ctrl+Left workspace prev
 # to display names or symbols instead of plain workspace numbers you can use
 # something like: set $ws1 1:mail
 #                 set $ws2 2:
-set $ws1 1
-set $ws2 2
-set $ws3 3
-set $ws4 4
-set $ws5 5
+set $ws1 "1:  Terminal"
+set $ws2 "2:  Chrome"
+set $ws3 "3:  Terminal"
+set $ws4 "4:  Mail"
+set $ws5 "5:  Spotify"
 set $ws6 6
 set $ws7 7
 set $ws8 8
@@ -190,8 +195,9 @@ bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 
 # Open applications on specific workspaces
-# assign [class="Thunderbird"] $ws1
-# assign [class="Pale moon"] $ws2
+assign [class="Google-chrome"] $ws2
+assign [class="thunderbird"] $ws4
+assign [class="Spotify"] $ws5
 # assign [class="Pcmanfm"] $ws3
 # assign [class="Skype"] $ws5
 
@@ -225,6 +231,7 @@ for_window [class="(?i)virtualbox"] floating enable border normal
 for_window [class="Xfburn"] floating enable
 for_window [class="Bitwarden"] floating enable
 for_window [class="mpv"] floating enable
+for_window [class="Blueman-manager"] floating enable
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
@@ -298,6 +305,7 @@ exec --no-startup-id start_conky_solarized
 # exec --no-startup-id xautolock -time 10 -locker blurlock
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
+exec --no-startup-id google-chrome-stable
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
@@ -338,7 +346,7 @@ exec_always xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate 
 # Start i3bar to display a workspace bar (plus the system information i3status if available)
 bar {
 	i3bar_command i3bar
-	status_command i3status
+	status_command i3status -c /home/serge/.config/i3status/i3status.conf
 	position top
 
 ## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
@@ -347,20 +355,32 @@ bar {
 
 	bindsym button4 nop
 	bindsym button5 nop
-#   font xft:URWGothic-Book 11
+    #font xft:monospace 11
+    font xft:Droid Sans Mono 11
 	strip_workspace_numbers yes
 
-    colors {
-        background #222D31
-        statusline #F9FAF9
-        separator  #454947
+    #colors {
+    #    background #222D31
+    #    statusline #F9FAF9
+    #    separator  #454947
 
-#                      border  backgr. text
-        focused_workspace  #F9FAF9 #16a085 #292F34
-        active_workspace   #595B5B #353836 #FDF6E3
-        inactive_workspace #595B5B #222D31 #EEE8D5
-        binding_mode       #16a085 #2C2C2C #F9FAF9
-        urgent_workspace   #16a085 #FDF6E3 #E5201D
+#   #                   border  backgr. text
+    #    focused_workspace  #F9FAF9 #16a085 #292F34
+    #    active_workspace   #595B5B #353836 #FDF6E3
+    #    inactive_workspace #595B5B #222D31 #EEE8D5
+    #    binding_mode       #16a085 #2C2C2C #F9FAF9
+    #    urgent_workspace   #16a085 #FDF6E3 #E5201D
+    #}
+    colors {
+        background #282A36
+        statusline #F8F8F2
+        separator  #44475A
+
+        focused_workspace  #44475A #44475A #F8F8F2
+        active_workspace   #282A36 #44475A #F8F8F2
+        inactive_workspace #282A36 #282A36 #BFBFBF
+        urgent_workspace   #FF5555 #FF5555 #F8F8F2
+        binding_mode       #FF5555 #FF5555 #F8F8F2
     }
 }
 
@@ -369,13 +389,21 @@ bindsym $mod+m bar mode toggle
 
 # Theme colors
 # class                   border  backgr. text    indic.   child_border
-  client.focused          #556064 #556064 #80FFF9 #FDF6E3
-  client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
-  client.unfocused        #2F3D44 #2F3D44 #1ABC9C #454948
-  client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
-  client.placeholder      #000000 #0c0c0c #ffffff #000000 
+#  client.focused          #556064 #556064 #80FFF9 #FDF6E3
+#  client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
+#  client.unfocused        #2F3D44 #2F3D44 #1ABC9C #454948
+#  client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
+#  client.placeholder      #000000 #0c0c0c #ffffff #000000 
+#
+#  client.background       #2B2C2B
 
-  client.background       #2B2C2B
+client.focused          #6272A4 #6272A4 #F8F8F2 #6272A4   #6272A4
+client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
+client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
+client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
+client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
+
+client.background       #F8F8F2
 
 #############################
 ### settings for i3-gaps: ###
@@ -436,17 +464,21 @@ mode "$mode_gaps_outer" {
 
 exec_always --no-startup-id numlockx on
 
-exec_always i3-layouts
+exec_always i3-layouts 
 set $i3l autosplit to workspace $ws1
 set $i3l autosplit to workspace $ws2
 set $i3l autosplit to workspace $ws3
 set $i3l autosplit to workspace $ws4
 set $i3l autosplit to workspace $ws5
 set $i3l autosplit to workspace $ws6
-bindsym $mod+s exec i3l autosplit
-exec_always i3l autosplit
+bindsym $mod+s exec i3l autosplit 
+exec_always i3l autosplit 
 bindsym $mod+Shift+n exec i3l none
 
-# exec --no-startup-id i3-msg exec-blocking 'workspace $ws3; exec urxvt; exec urxvt -e ranger'
-# exec --no-startup-id i3-msg exec-blocking 'workspace $ws4; exec thunderbird'
-# exec --no-startup-id i3-msg exec-blocking 'workspace $ws2; exec google-chrome-stable'
+
+bindsym $mod+Shift+t exec urxvt -title scratch, move position center
+for_window [class="URxvt" title="scratch"] floating enable, resize set 1400px 800px, move position center, move scratchpad
+# for_window [class="Spotify"] floating enable, resize set 1400px 800px, move position center, move scratchpad
+exec --no-startup-id urxvt -title scratch 
+
+# bindsym $mod+y exec mpv $(xclip -o -sel clip)
