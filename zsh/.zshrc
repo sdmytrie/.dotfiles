@@ -148,7 +148,7 @@ alias zshrc="source ~/.zshrc"
 alias vps='ssh -t vps "tmux attach -d || tmux new"'
 
 
-PATH=$PATH:~/.local/bin:.
+PATH=$PATH:~/.local/bin:~/.local/scripts:.
 
 bindkey -v
 export VI_MODE_SET_CURSOR=true

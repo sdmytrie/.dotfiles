@@ -27,7 +27,7 @@ function M.config()
       -- Set a linter
       diagnostics.rubocop,
       diagnostics.markdownlint,
-      -- diagnostics.flake8,
+      diagnostics.flake8,
       -- diagnostics.eslint,
     },
     -- NOTE: You can remove this on attach function to disable format on save
