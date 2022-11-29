@@ -131,8 +131,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-EDITOR=nvim
-VISUAL=nvim
+EDITOR=lvim
+VISUAL=lvim
 
 
 # Aliases
@@ -142,7 +142,7 @@ fi
 # alias fzf=fzf --reverse --preview 'bat --color=always --line-range :50 {}'
 #alias lsd="lsd --config-file ~/.config/lsd/config.yaml"
 # alias ls="lsd"
-alias vi=nvim
+alias vi=lvim
 alias bc=bc -l -q
 alias zshrc="source ~/.zshrc"
 alias vps='ssh -t vps "tmux attach -d || tmux new"'
