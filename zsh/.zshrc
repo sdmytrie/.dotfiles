@@ -142,7 +142,8 @@ fi
 # alias fzf=fzf --reverse --preview 'bat --color=always --line-range :50 {}'
 #alias lsd="lsd --config-file ~/.config/lsd/config.yaml"
 # alias ls="lsd"
-alias vi=lvim
+#alias vi=lvim
+alias vi=nvim
 alias bc=bc -l -q
 alias zshrc="source ~/.zshrc"
 alias vps='ssh -t vps "tmux attach -d || tmux new"'
