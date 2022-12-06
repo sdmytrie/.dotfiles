@@ -1,48 +1,53 @@
 {
-    "editor.minimap.enabled": false,
-    "editor.formatOnSave": false,
-    "editor.formatOnPaste": false,
-    "editor.renderWhitespace": "all",
-    "editor.linkedEditing": true,
-    "editor.occurrencesHighlight": false,
-    "editor.suggest.insertMode": "replace",
-    "editor.acceptSuggestionOnCommitCharacter": false,
-    "explorer.autoReveal": false,
-    "files.autoSave": "onFocusChange",
-    "files.defaultLanguage": "markdown",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.tree.indent": 15,
-    "workbench.tree.renderIndentGuides": "always",
-    "workbench.editor.enablePreview": false,
-    "emmet.triggerExpansionOnTab": true,
-    "workbench.colorTheme": "Tokyo Night",
-    "workbench.colorCustomizations": {
-        "[Tokyo Night]": {
-            "editor.selectionBackground": "#3D59A1",
-            "editor.selectionHighlightBackground": "#3D59A1"
-        }
-    },
-    "editor.fontFamily": "'JetBrains Mono', 'Droid Sans Mono', 'monospace', monospace",
-    "editor.fontLigatures": true,
-    "editor.lineHeight": 20,
-    "editor.fontSize": 14,
-    "gitlens.currentLine.enabled": false,
-    "gitlens.codeLens.enabled": false,
-    "gitlens.hovers.currentLine.over": "line",
-    "commands.commands": 
-        {
-            "multiCommand.makeRoom": {
-                "sequence": [
-                    "workbench.action.toggleSidebarVisibility",
-                    "workbench.action.toggleActivityBarVisibility"
-                ]
-            }
-        },
-    "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true,
-    "python.formatting.provider": "black",
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": true
-    },
-    "editor.lineNumbers": "relative"
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Tokyo Night",
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "editor.renderWhitespace": "all",
+  "editor.linkedEditing": true,
+  "editor.occurrencesHighlight": false,
+  "editor.suggest.insertMode": "replace",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "files.autoSave": "onFocusChange",
+  "files.defaultLanguage": "markdown",
+  "explorer.autoReveal": false,
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.editor.enablePreview": false,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.fontFamily": "'JetBrains Mono', 'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 20,
+  "editor.fontSize": 14,
+  "workbench.colorCustomizations": {
+    "[Tokyo Night]": {
+      "editor.selectionBackground": "#3D59A1",
+      "editor.selectionHighlightBackground": "#3D59A1"
+    }
+  },
+  "gitlens.currentLine.enabled": false,
+  "gitlens.codeLens.enabled": true,
+  "gitlens.hovers.currentLine.over": "line",
+  "multiCommand.commands": [
+    {
+      "command": "multiCommand.makeRoom",
+      "sequence": [
+        "workbench.action.toggleSidebarVisibility",
+        "workbench.action.toggleActivityBarVisibility"
+      ]
+    }
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.analysis.typeCheckingMode": "strict",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "python.formatting.provider": "black",
+  "editor.lineNumbers": "relative"
 }
