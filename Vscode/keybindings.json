@@ -12,7 +12,7 @@
     {
         "key": "ctrl+shift+d",
         "command": "editor.action.addSelectionToNextFindMatch",
-        "when": "editorFocus"
+        "when": "editorTextFocus"
     },
     {
         "key": "ctrl+e",
@@ -33,18 +33,5 @@
     {
         "key": "ctrl+alt+l",
         "command": "editor.action.formatDocument"
-    },
-    {
-        "key": "ctrl+t",
-        "command": "workbench.action.terminal.toggleTerminal"
-    },
-    {
-        "key": "ctrl+k",
-        "command": "workbench.view.scm"
-    },
-    {
-        "key": "alt+1",
-        "command": "workbench.view.explorer",
-        "when": "view.workbench.scm.visible"
-    },
+    }
 ]
