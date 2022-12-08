@@ -1,8 +1,0 @@
-mkdir test_ranger
-vi test
-shell vi test
-rename toto
-shell 
-rename totoz
-fzf_select 
-delete
