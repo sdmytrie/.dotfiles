@@ -5,8 +5,11 @@
 URxvt*scrollBar:	    false
 URxvt*letterSpace:  	-1
 URxvt.internalBorder: 4
-!URxvt*font: xft:DejaVu Sans Mono Nerd Font:size=12
-URxvt*font: xft:DejaVuSansMono Nerd Font Mono:size=11
+!URxvt*font: xft:Noto Sans Mono:size=11
+URxvt*font: xft:JetBrainsMonoNL Nerd Font Mono:size=11
+!URxvt.font:   xft:NotoSansM Nerd Font Mono:size=11
+!URxvt*font: xft:DejaVu Sans Mono:size=11
+!URxvt*font: xft:DejaVuSansMono Nerd Font Mono:size=11
 !URxvt*boldFont:		    xft:System San Francisco:bold:size=11
 URxvt*cursorBlink:    false
 URxvt.iso14755:		    false
