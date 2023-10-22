@@ -10,11 +10,16 @@ polybar-msg cmd quit
 echo "---" | tee -a /tmp/polybar1.log
 #echo "---" | tee -a /tmp/polybar1.log /tmp/polybar2.log
 if type "xrandr"; then
-  for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
+  for m in $(xrandr --query | grep -v " connected primary" | cut -d" " -f1); do
+    echo $m
+    [ $m == "HDMI-1-0" ] && SECONDARY="HDMI-1-0" polybar --reload bar2 &
+  done
+  for m in $(xrandr --query | grep " connected primary" | cut -d" " -f1); do
     echo $m
     MONITOR=$m polybar --reload bar1 &
   done
 else
+  polybar --reload bar2 &
   polybar --reload bar1 &
 fi
 #polybar bar1 2>&1 | tee -a /tmp/polybar1.log & disown
