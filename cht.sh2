@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-languages=`echo "typescript nodejs python" | tr ' ' '\n'`
+languages=`echo "typescript nodejs python htmx" | tr ' ' '\n'`
 core_utils=`echo "tmux xargs find sed awk" | tr ' ' '\n'`
 
 selected=`printf "$languages\n$core_utils" | fzf`
