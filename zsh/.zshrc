@@ -1,24 +1,15 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/serge/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-#ZSH_THEME="powerlevel10k/powerlevel10k"
+# ZSH_THEME="robbyrussell"
 ZSH_THEME="intheloop"
-#ZSH_THEME="robbyrussell"
-#ZSH_THEME="random"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -80,21 +71,21 @@ ZSH_THEME="intheloop"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-# ZSH_TMUX_AUTOSTART='true'
+plugins=(git)
 plugins=(
-    bgnotify 
-    colored-man-pages
-    copybuffer
-    copypath
-    fzf 
-    git
-    history 
-    pyenv
-    sudo 
-    tmux 
-    vi-mode 
-    web-search 
-)
+	bgnotify
+	colored-man-pages     
+	copybuffer
+	copypath
+	fzf
+	git
+	history
+	pyenv
+	sudo
+	tmux
+	vi-mode
+	web-search
+) 
 
 source $ZSH/oh-my-zsh.sh
 
@@ -123,26 +114,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+EDITOR=nvim
+VISUAL=nvim
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-EDITOR=lvim
-VISUAL=lvim
-
-
-# Aliases
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-fi
-# alias fzf=fzf --reverse --preview 'bat --color=always --line-range :50 {}'
-#alias lsd="lsd --config-file ~/.config/lsd/config.yaml"
-# alias ls="lsd"
-#alias vi=lvim
 alias vi=nvim
 alias bc=bc -l -q
 alias zshrc="source ~/.zshrc"
@@ -170,13 +144,12 @@ export FZF_ALT_C_COMMAND="fd --type d . --color=never --hidden --exclude .git"
 export FZF_ALT_C_OPTS="--preview 'tree -C {} | head -50'"
 export FZF_TMUX=1
 
+export BROWSER=/usr/bin/google-chrome-stable
+
 # What's the weather like ?
 curl "fr.wttr.in/domfessel?p0"
 
 # Personal scripts
-source ~/.local/scripts/fzf_git.sh
-
-
-
-# Load Angular CLI autocompletion.
-source <(ng completion script)
+# source ~/.local/scripts/fzf_git.sh
+alias font-viewer="fc-list | awk '{print $1}' | sed 's/://' | dmenu -l 10 -p 'Font:'"
+alias ls=lsd
