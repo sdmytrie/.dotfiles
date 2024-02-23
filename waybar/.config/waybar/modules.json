@@ -1,0 +1,191 @@
+{
+  // Workspaces
+  "hyprland/workspaces": {
+    "on-click": "activate",
+    "active-only": false,
+    "all-outputs": true,
+    "format": "{}",
+    "format-icons": {
+      "urgent": "",
+      "active": "",
+      "default": ""
+    },
+    "persistent_workspaces": {
+      "*": 3
+    }
+  },
+  // Taskbar
+  "wlr/taskbar": {
+    "format": "{icon}",
+    "icon-size": 18,
+    "tooltip-format": "{title}",
+    "on-click": "activate",
+    "on-click-middle": "close",
+    "ignore-list": ["Kitty"],
+    "app_ids-mapping": {
+      "firefoxdeveloperedition": "firefox-developer-edition"
+    },
+    "rewrite": {
+      "Firefox Web Browser": "Firefox",
+      "Foot Server": "Terminal"
+    }
+  },
+  // Hyprland Window
+  "hyprland/window": {
+    "rewrite": {
+      "(.*) - Brave": "$1",
+      "(.*) - Chromium": "$1",
+      "(.*) - Brave Search": "$1",
+      "(.*) - Outlook": "$1",
+      "(.*) Microsoft Teams": "$1"
+    },
+    "separate-outputs": true
+  },
+  // Cliphist
+  "custom/cliphist": {
+    "format": "",
+    "on-click": "sleep 0.1 && ~/.local/scripts/cliphist.sh",
+    "on-click-right": "sleep 0.1 && ~/.local/scripts/cliphist.sh d",
+    "on-click-middle": "sleep 0.1 && ~/.local/scripts/cliphist.sh w",
+    "tooltip": false
+  },
+  // Updates Count
+  "custom/updates": {
+    "format": "  {}",
+    "tooltip-format": "{}",
+    "escape": true,
+    "return-type": "json",
+    "exec": "~/.local/scripts/updates.sh",
+    "restart-interval": 60,
+    "tooltip": false
+  },
+  // Wallpaper
+  "custom/wallpaper": {
+    "format": "",
+    "on-click": "~/.local/scripts/wallpaper-swww.sh",
+    "on-click-right": "~/.local/scripts/updatewal-swww.sh",
+    "tooltip": false
+  },
+  // Brave Launcher
+  "custom/brave": {
+    "format": "",
+    "on-click": "brave",
+    "tooltip": false
+  },
+  // Rofi Calculator
+  "custom/calculator": {
+    "format": "",
+    "on-click": "~/.local/scripts/calculator.sh",
+    "tooltip": false
+  },
+  // Rofi Application Launcher
+  "custom/appmenu": {
+    "format": "Apps",
+    "on-click": "~/.local/scripts/applauncher.sh",
+    "tooltip": false
+  },
+  // Power Menu
+  "custom/exit": {
+    "format": "",
+    "on-click": "wlogout",
+    "tooltip": false
+  },
+  // Keyboard State
+  "keyboard-state": {
+    "numlock": true,
+    "capslock": true,
+    "format": "{name} {icon}",
+    "format-icons": {
+      "locked": "",
+      "unlocked": ""
+    }
+  },
+  // System tray
+  "tray": {
+    // "icon-size": 21,
+    "spacing": 10
+  },
+  // Clock
+  "clock": {
+    // "timezone": "America/New_York",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format-alt": "{:%Y-%m-%d}"
+  },
+  // CPU
+  "cpu": {
+    "format": "/ C {usage}% ",
+    "on-click": "kitty -e htop"
+  },
+  // Memory
+  "memory": {
+    "format": "/ M {}% ",
+    "on-click": "kitty -e htop"
+  },
+  // Harddisc space used
+  "disk": {
+    "interval": 30,
+    "format": "   {percentage_used}% ",
+    "path": "/",
+    "on-click": "kitty -e htop"
+  },
+  // Network
+  "network": {
+    "format": "{ifname}",
+    "format-wifi": "   {signalStrength}%",
+    "format-ethernet": "  {ipaddr}",
+    "format-disconnected": "", //An empty format will hide the module.
+    "tooltip-format": " {ifname} via {gwaddri}",
+    "tooltip-format-wifi": "   {essid} ({signalStrength}%)",
+    "tooltip-format-ethernet": "  {ifname} ({ipaddr}/{cidr})",
+    "tooltip-format-disconnected": "Disconnected",
+    "max-length": 50
+  },
+  // Battery
+  "battery": {
+    "states": {
+      "good": 95,
+      "warning": 20,
+      "critical": 10
+    },
+    "format": "{icon}   {capacity}%",
+    "format-charging": "  {capacity}%",
+    "format-plugged": "  {capacity}%",
+    "format-alt": "{icon}  {time}",
+    // "format-good": "", // An empty format will hide the module
+    // "format-full": "",
+    "format-icons": [" ", " ", " ", " ", " "]
+  },
+  // Pulseaudio
+  "pulseaudio": {
+    // "scroll-step": 1, // %, can be a float
+    "format": "{icon}  {volume}%",
+    "format-bluetooth": "{volume}% {icon} {format_source}",
+    "format-bluetooth-muted": " {icon} {format_source}",
+    "format-muted": " {format_source}",
+    "format-source": "{volume}% ",
+    "format-source-muted": "",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": ["", " ", " "]
+    },
+    "on-click": "pavucontrol"
+  },
+  // Bluetooth
+  "bluetooth": {
+    "format-disabled": "",
+    "format-off": "",
+    "interval": 30,
+    "on-click": "blueman-manager"
+  },
+  // Other
+  "user": {
+    "format": "{user}",
+    "interval": 60,
+    "icon": false
+  }
+}
