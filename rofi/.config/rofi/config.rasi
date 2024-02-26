@@ -1,0 +1,26 @@
+/* Dark theme. */
+@import "~/.cache/wal/colors-rofi-dark"
+
+/* Light theme. */
+/* @import "~/.cache/wal/colors-rofi-light" */
+/* ---- Window ---- */
+window {
+    width:                        600px;
+    x-offset:                     -14px;
+    y-offset:                     65px;
+    spacing:                      0px;
+    padding:                      0px;
+    margin:                       0px; 
+    color:                        #FFFFFF;
+    border:                       1px;
+    border-color:                 #FFFFFF;
+    cursor:                       "default";
+    transparency:                 "real";
+    location:                     center;
+    anchor:                       center;
+    fullscreen:                   false;
+    enabled:                      true;
+    border-radius:                10px;
+    background-color:             transparent;
+}
+

@@ -1,4 +1,4 @@
 #!/bin/bash
 
-rofi -show drun
+rofi -show-icons -show drun
 

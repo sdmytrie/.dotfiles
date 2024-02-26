@@ -41,7 +41,7 @@
         "custom/updates",
         "pulseaudio",
         "battery", 
-        //"custom/cliphist",
+        "custom/cliphist",
         "custom/exit",
         "clock"
     ],
