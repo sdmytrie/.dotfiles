@@ -155,3 +155,4 @@ curl "fr.wttr.in/domfessel?p0"
 # source ~/.local/scripts/fzf_git.sh
 alias font-viewer="fc-list | awk '{print $1}' | sed 's/://' | dmenu -l 10 -p 'Font:'"
 alias ls=lsd
+[ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
