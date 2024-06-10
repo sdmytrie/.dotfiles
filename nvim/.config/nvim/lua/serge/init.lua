@@ -1,5 +1,0 @@
-require('serge.telescope')
-require('serge.lightline')
-require('serge.lspconfig')
-require('serge.treesitter')
-require('serge.gitsigns')
