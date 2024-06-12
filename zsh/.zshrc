@@ -118,7 +118,7 @@ source $ZSH/oh-my-zsh.sh
 EDITOR=nvim
 VISUAL=nvim
 
-alias vi=nvim
+alias vi=/snap/bin/nvim
 alias bc=bc -l -q
 alias zshrc="source ~/.zshrc"
 alias vps='ssh -t vps "tmux attach -d || tmux new"'
@@ -132,8 +132,8 @@ export BW_SESSION="kZ6Yz7BVwU3o+fq/K3SgGVt6yvHqVnUpouSOFDThhFdlsBytD5UFWchqpGmKl
 export BROWSER="/usr/bin/google-chrome-stable"
 
 # fzf
-. /usr/share/fzf/key-bindings.zsh
-. /usr/share/fzf/completion.zsh
+#. /usr/share/fzf/key-bindings.zsh
+#. /usr/share/fzf/completion.zsh
 export CONFIGURATION="--exclude .git --exclude node_modules --exclude nas01 --exclude google --exclude .vscode --exclude spotify --exclude thorium-browser --exclude visual-studio-code --exclude .thunderbird --search-path ."
 export FZF_DEFAULT_COMMAND="fd --type f --color=never --hidden --follow $CONFIGURATION"
 #export FZF_DEFAULT_OPTS="-m --no-height --color=bg+:#343d46,gutter:-1,pointer:#ff3c3c,info:#0dbc79,hl:#0dbc79,hl+:#23d18b --reverse --preview 'bat --color=always --line-range :50 {}'"
@@ -154,5 +154,5 @@ curl "fr.wttr.in/domfessel?p0"
 # Personal scripts
 # source ~/.local/scripts/fzf_git.sh
 alias font-viewer="fc-list | awk '{print $1}' | sed 's/://' | dmenu -l 10 -p 'Font:'"
-alias ls=lsd
+# alias ls=lsd
 #[ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
