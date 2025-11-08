@@ -1,0 +1,38 @@
+theme = Catppuccin Mocha
+font-size = 10
+window-height=30
+window-width=150
+# font-family = FiraCode Nerd Font
+font-family = MesloLGL Nerd Font Mono
+# font-family = Terminess Nerd Font
+# font-family = Hack Nerd Font Mono
+# font-family = JetBrainsMonoNL Nerd Font Propo
+keybind = global:super+shift+space=toggle_quick_terminal
+
+macos-titlebar-style = tabs
+# window-decoration = true
+window-padding-x = 4
+window-padding-y = 4
+window-padding-balance = true
+# window-save-state = always
+
+auto-update = check
+copy-on-select = clipboard
+background-opacity = 1
+background-blur-radius = 10
+macos-titlebar-style = hidden
+window-decoration = false
+#
+keybind = super+d=new_split:right
+keybind = super+shift+d=new_split:down
+keybind = super+shift+h=goto_split:left
+keybind = super+shift+j=goto_split:bottom
+keybind = super+shift+k=goto_split:top
+keybind = super+shift+l=goto_split:right
+keybind = super+enter=new_window
+
+custom-shader=cursor_smear.glsl
+
+gtk-titlebar = false
+# background-image = ~/Images/wallpapers/0015.jpg
+background-opacity = 0.9
