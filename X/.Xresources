@@ -1,0 +1,111 @@
+! ===================
+!       urxvt
+! ===================
+
+URxvt*scrollBar:	    false
+URxvt*letterSpace:  	-1
+URxvt.internalBorder: 2
+!URxvt*font: xft:Noto Sans Mono:size=10
+!URxvt*font: xft:JetBrainsMono NFM:size=10
+!URxvt*font: xft:RobotoMono Nerd Font Mono:size=10
+!URxvt*font: xft:Inconsolata Semi Expanded Medium:size=10
+!URxvt.font:   xft:NotoSansM Nerd Font Mono:size=11
+!URxvt*font: xft:DejaVu Sans Mono:size=11
+URxvt*font: xft:MesloLGL Nerd Font Mono:size=11
+!URxvt*font: xft:DejaVuSansMono Nerd Font Mono:size=11
+!URxvt*boldFont:		    xft:System San Francisco:bold:size=11
+URxvt.borderWidth: 0
+URxvt.externalBorder: 0
+URxvt*cursorBlink:    false
+URxvt.iso14755:		    false
+URxvt.iso14755_52: false
+URxvt*utf8:			      true
+URxvt.background: [90]#1A1B26
+URxvt.geometry: 135x35
+
+! =================
+!       Xft
+! =================
+Xft.dpi:          	96
+Xft.antialias:     	true
+!Xft.rgba:			      subpixel
+Xft.rgba:			rgb
+Xft.autohint:       false
+Xft.hinting:       	true
+Xft.hintstyle:		  hintslight
+Xft.lcdfilter:	  lcddefault
+! ============
+!    Perl
+! ============
+URxvt.perl-ext-common: default,clipboard,resize-font,url-select,keyboard-select
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select.launcher: /usr/bin/xdg-open
+URxvt.url-select.underline: true
+
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 2
+
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.C-Down:  resize-font:smaller
+URxvt.keysym.C-Up:    resize-font:bigger
+
+URxvt.clipboard.autocopy: true
+URxvt.keysym.M-C: perl:clipboard:copy
+URxvt.keysym.M-V: perl:clipboard:paste
+URxvt.keysym.M-s:		perl:keyboard-select:search
+! ============
+!   Couleurs
+! ============
+!*secondary:  #444B6A
+!*active:     #C0CAF5
+!!
+!*.foreground:   #C0CAF5
+!*.background:   #1A1B26
+!*.cursorColor:  #C0CAF5
+!* fading: 20
+!*fadeColor: #5A638C
+!!
+!*.color0:                #6878A6
+!*.color8:                #5d6791
+!*.color1:                #DB4B4B
+!*.color9:                #A6333F
+!*.color2:                #9ECE6A
+!*.color10:               #9ECE6A
+!*.color3:                #E0AF68
+!*.color11:               #BBA461
+!*.color4:                #7AA2F7
+!*.color12:               #6D91DE
+!*.color5:                #BB9AF7
+!*.color13:               #9D7CD8
+!*.color6:                #41A6B5
+!*.color14:               #449DAB
+!*.color7:                #C0CAF5
+!*.color15:               #9AA5CE
+! hard contrast: *background: #1d2021
+*background: #282828
+! soft contrast: *background: #32302f
+*foreground: #ebdbb2
+! Black + DarkGrey
+*color0:  #282828
+*color8:  #928374
+! DarkRed + Red
+*color1:  #cc241d
+*color9:  #fb4934
+! DarkGreen + Green
+*color2:  #98971a
+*color10: #b8bb26
+! DarkYellow + Yellow
+*color3:  #d79921
+*color11: #fabd2f
+! DarkBlue + Blue
+*color4:  #458588
+*color12: #83a598
+! DarkMagenta + Magenta
+*color5:  #b16286
+*color13: #d3869b
+! DarkCyan + Cyan
+*color6:  #689d6a
+*color14: #8ec07c
+! LightGrey + White
+*color7:  #a89984
+*color15: #ebdbb2

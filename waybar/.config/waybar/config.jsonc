@@ -1,0 +1,95 @@
+{
+  "position": "top",
+  "modules-left": [
+    "hyprland/workspaces",
+    "custom/lock",
+    "custom/reboot",
+    "custom/power"
+  ],
+  "modules-center": ["hyprland/window"],
+  "modules-right": ["custom/updates", "network", "pulseaudio", "battery", "clock", "tray"],
+  "tray": {
+    "icon-size": 17,
+    "spacing": 6
+  },
+  "clock": {
+    "format": "<span foreground='#f5c2e7'>   </span>{:L%a %d %H:%M}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "timezone": "Europe/Paris",
+    "locale": "fr_FR.UTF-8"
+  },
+  "battery": {
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "<span size='13000' foreground='#a6e3a1'>{icon} </span> {capacity}%",
+    "format-warning": "<span size='13000' foreground='#B1E3AD'>{icon} </span> {capacity}%",
+    "format-critical": "<span size='13000' foreground='#E38C8F'>{icon} </span> {capacity}%",
+    "format-charging": "<span size='13000' foreground='#B1E3AD'> </span>{capacity}%",
+    "format-plugged": "<span size='13000' foreground='#B1E3AD'> </span>{capacity}%",
+    "format-alt": "<span size='13000' foreground='#B1E3AD'>{icon} </span> {time}",
+    "format-full": "<span size='13000' foreground='#B1E3AD'> </span>{capacity}%",
+    "format-icons": ["", "", "", "", ""],
+    "tooltip-format": "{time}"
+  },
+  "network": {
+    "format-wifi": "<span size='13000' foreground='#f5e0dc'>  </span>{essid}",
+    "format-ethernet": "<span size='13000' foreground='#f5e0dc'>󰤭  </span> Disconnected",
+    "format-linked": "{ifname} (No IP) ",
+    "format-disconnected": "<span size='13000' foreground='#f5e0dc'>  </span>Disconnected",
+    "tooltip-format-wifi": "Signal Strenght: {signalStrength}%"
+  },
+  "pulseaudio": {
+      "format": "{icon}  {volume}%",
+      "format-muted": "",
+      "format-icons": {
+          "default": ["", "", " "]
+      },
+      "on-click": "pavucontrol"
+  },
+  "hyprland/workspaces": {
+    "disable-scroll": false,
+    "all-outputs": true,
+    "format": "{icon}",
+    "on-click": "activate",
+    "persistent-workspaces": {
+      "eDP-1": [6, 7, 8, 9],
+      "HDMI-A-1": [1, 2, 3, 4, 5]
+    },
+    "format-icons": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9"
+    }
+  },
+  "custom/lock": {
+    "format": "<span color='#00FFFF'>  </span>",
+    "on-click": "hyprlock",
+  },
+  "custom/reboot": {
+    "format": "<span color='#FFD700'>  </span>",
+    "on-click": "systemctl reboot",
+  },
+  "custom/power": {
+    "format": "<span color='#FF4040'>  </span>",
+    "on-click": "systemctl poweroff",
+    "tooltip": true,
+  },
+  "custom/updates": {
+      "format": "{} {icon}    ",
+      "return-type": "json",
+      "format-icons": {
+          "has-updates": "󱍷",
+          "updated": "󰂪"
+      },
+      "exec-if": "which waybar-module-pacman-updates",
+      "exec": "waybar-module-pacman-updates --interval-seconds 5 --network-interval-seconds 300"
+  }
+}
