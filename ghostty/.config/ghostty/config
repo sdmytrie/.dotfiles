@@ -18,7 +18,7 @@ window-padding-balance = true
 
 auto-update = check
 copy-on-select = clipboard
-background-opacity = 1
+background-opacity = 0.9
 background-blur-radius = 10
 macos-titlebar-style = hidden
 window-decoration = false
@@ -35,4 +35,3 @@ custom-shader=cursor_smear.glsl
 
 gtk-titlebar = false
 # background-image = ~/Images/wallpapers/0015.jpg
-background-opacity = 0.9
