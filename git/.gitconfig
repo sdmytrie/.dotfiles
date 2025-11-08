@@ -1,0 +1,7 @@
+[user]
+	email = serge.dmytrienko@live.fr
+	name = Serge DMYTRIENKO
+[core]
+	pager = less -iXFR
+[init]
+	defaultBranch = main
