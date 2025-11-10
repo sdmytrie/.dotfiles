@@ -86,8 +86,8 @@
       "format": "{} {icon}    ",
       "return-type": "json",
       "format-icons": {
-          "has-updates": "󱍷",
-          "updated": "󰂪"
+          "has-updates": "<span foreground='#f5c2e7'>󱍷 </span>",
+          "updated": "<span size='13000' foreground='#B1E3AD'>󰂪 </span>"
       },
       "exec-if": "which waybar-module-pacman-updates",
       "exec": "waybar-module-pacman-updates --interval-seconds 5 --network-interval-seconds 300"
