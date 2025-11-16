@@ -72,6 +72,9 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(git)
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
 plugins=(
 	bgnotify
 	colored-man-pages     
@@ -166,7 +169,7 @@ export BROWSER=w3m
 export BROWSER="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 # What's the weather like ?
-# curl "fr.wttr.in/domfessel?p0"
+curl "fr.wttr.in/domfessel?p0"
 
 # Personal scripts
 # source ~/.local/scripts/fzf_git.sh
@@ -205,6 +208,5 @@ function yy() {
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
 export PATH="/Users/said7456/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init --path)"
+
+eval "$(zoxide init zsh)"
