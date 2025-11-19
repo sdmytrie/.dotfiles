@@ -73,8 +73,8 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(git)
 export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init --path)"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
 plugins=(
 	bgnotify
 	colored-man-pages     
@@ -83,7 +83,6 @@ plugins=(
 	fzf
 	git
 	history
-	pyenv
 	sudo
 	tmux
 	vi-mode
@@ -169,7 +168,7 @@ export BROWSER=w3m
 export BROWSER="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 # What's the weather like ?
-curl "fr.wttr.in/domfessel?p0"
+# curl "fr.wttr.in/domfessel?p0"
 
 # Personal scripts
 # source ~/.local/scripts/fzf_git.sh
@@ -190,10 +189,6 @@ setopt hist_ignore_dups
 setopt hist_find_no_dups
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
-
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init --path)"
 
 function yy() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
