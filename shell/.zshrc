@@ -165,7 +165,7 @@ export FZF_TMUX=1
 # zstyle ':completion:*' menu no
 # zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 export BROWSER=w3m
-export BROWSER="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+export BROWSER=/usr/bin/google-chrome-stable
 
 # What's the weather like ?
 # curl "fr.wttr.in/domfessel?p0"
