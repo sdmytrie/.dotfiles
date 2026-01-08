@@ -105,7 +105,7 @@
     "format": "{}",
     "exec": "ip add show | grep -qF tun0 && echo 󰌾 vpn || echo 󰿆 vpn",
     "max-length": "100",
-    "on-click": "nmcli connection up 'Cyberghost VPN United States'",
-    "on-click-right": "nmcli connection down 'Cyberghost VPN United States'",
+    "on-click": "nmcli connection up 'openvpn BE'",
+    "on-click-right": "nmcli connection down 'openvpn BE'",
   },
 }
