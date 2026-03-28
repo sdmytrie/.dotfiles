@@ -76,7 +76,7 @@ button:hover {
   padding-right: 4px;
 }
 
-#clock {
+#clock, #language {
   color: @maroon;
   /* border-bottom: 2px solid @maroon; */
 }
