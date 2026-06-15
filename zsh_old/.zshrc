@@ -149,10 +149,20 @@ export FZF_TMUX=1
 export BROWSER=/usr/bin/google-chrome-stable
 
 # What's the weather like ?
-curl "fr.wttr.in/domfessel?p0"
+# curl "fr.wttr.in/domfessel?p0"
 
 # Personal scripts
 # source ~/.local/scripts/fzf_git.sh
 alias font-viewer="fc-list | awk '{print $1}' | sed 's/://' | dmenu -l 10 -p 'Font:'"
 # alias ls=lsd
 #[ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
+#export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - bash)"
+
+# Restart your shell for the changes to take effect.
+
+# Load pyenv-virtualenv automatically by adding
+# the following to ~/.bashrc:
+
+eval "$(pyenv virtualenv-init -)"
